@@ -1,11 +1,15 @@
 ---
 layout: default
-title: "Mi CV"
+title: "Mi CV en espanolo"
 lang: "es"
 permalink: /es/
----
-## Experiencia
-- SysAdmin en XYZ
+sidebar: |
+  ## Facundo Ipharraguerre
+  - Ubicación: Córdoba, Argentina
+content: |
+  ## Experience
+  - SysAdmin en XYZ
 
-## Educación
-- Ingeniero en Telecomunicaciones
+  ## Education
+  - Ingeniero en Telecomunicaciones
+---

@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang }}">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
 </head>
 <body>
-	<div id="language-switch">
-		<a href="{{ site.baseurl }}/es/">🇪🇸 Español</a> | <a href="{{ site.baseurl }}/en/">🇬🇧 English</a>
-	</div>
-    <aside>
-        <h2>{{ site.data.cv.sidebar.nombre }}</h2>
-        <p>{{ site.data.cv.sidebar.título }}</p>
-        <p>{{ site.data.cv.sidebar.localización }}</p>
-    </aside>
-    <main>
-        {{ content }}
-    </main>
+    <div class="container">
+        <aside class="sidebar">
+            {{ page.sidebar | markdownify }}
+        </aside>
+        <main class="content">
+            {{ page.content | markdownify }}
+        </main>
+    </div>
 </body>
 </html>
