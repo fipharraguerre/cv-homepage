@@ -6,7 +6,7 @@ permalink: /en/
 sidebar: |
   ## Facundo Ipharraguerre
   - Location: Córdoba, Argentina
-content: |
+content_variable: |
   ## Experience
   - SysAdmin at XYZ
 
