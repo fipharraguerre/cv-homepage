@@ -1,0 +1,2 @@
+title: "Mi CV"
+theme: minima  # Usa un tema básico para empezar

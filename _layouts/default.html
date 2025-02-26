@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+</head>
+<body>
+    <aside>
+        <h2>{{ site.data.cv.sidebar.nombre }}</h2>
+        <p>{{ site.data.cv.sidebar.título }}</p>
+        <p>{{ site.data.cv.sidebar.localización }}</p>
+    </aside>
+    <main>
+        {{ content }}
+    </main>
+</body>
+</html>
