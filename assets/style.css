@@ -1,3 +1,7 @@
+* {
+    font-family: "Helvetica", "Arial", "Open Sans", "Calibri", sans-serif;
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -14,3 +18,4 @@
     width: 70%;
     padding: 20px;
 }
+
