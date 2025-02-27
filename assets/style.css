@@ -19,3 +19,23 @@
     padding: 20px;
 }
 
+#language-switch {
+    text-align: center;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#language-switch a {
+    color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+#language-switch a:hover {
+    color: white;
+}
+
