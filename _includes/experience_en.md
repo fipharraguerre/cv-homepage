@@ -1,5 +1,21 @@
 ### Experience
 
+#### IT Support and Administration
+*2008 - Present*
+**Self-Employed / Contractor**
+Administration and support of IT infrastructure for businesses, including servers, networks, and databases. Expertise in automation, cloud migrations, and security.  
+- Designed and managed wired, wireless, and virtual networks  
+- Collaborated with MSPs to support 10+ nationwide clients  
+- Implemented PBX systems, security cameras, and remote monitoring solutions  
+
+#### IT Systems Administrator
+*Feb 2020 - Jun 2023*
+**Dicsys S.A.**
+Managed IT infrastructure and user support for "Bolsa y Cámara de Cereales de Córdoba." Collaborated with agile teams and ensured system availability.  
+- Administered and monitored servers and networks  
+- Managed AD, Microsoft 365 licensing, and user access  
+- Provided hardware support, troubleshooting, and vendor coordination
+
 #### IT Support Specialist  
 *Feb 2012 - Mar 2014*  
 **Municipality of Alta Gracia**  

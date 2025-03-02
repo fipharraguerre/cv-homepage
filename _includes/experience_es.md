@@ -1,5 +1,21 @@
 ### Experiencia
 
+#### Soporte y Administración de IT
+*2008 - Presente*
+**Autónomo / Contratista**
+Administración y soporte de infraestructura IT para empresas, incluyendo servidores, redes y bases de datos. Experiencia en automatización, migraciones a la nube y seguridad.  
+- Diseñé y administré redes cableadas, inalámbricas y virtuales  
+- Colaboré con MSPs para dar soporte a más de 10 clientes a nivel nacional  
+- Implementé sistemas PBX, cámaras de seguridad y soluciones de monitoreo remoto  
+
+#### Administrador de Sistemas IT
+*Feb 2020 - Jun 2023*
+**Dicsys S.A.**
+Administré la infraestructura IT y brindé soporte a usuarios en la "Bolsa y Cámara de Cereales de Córdoba". Colaboré con equipos ágiles y aseguré la disponibilidad del sistema.  
+- Administré y monitoreé servidores y redes  
+- Gestioné AD, licencias de Microsoft 365 y accesos de usuarios  
+- Brindé soporte de hardware, resolución de problemas y coordinación con proveedores  
+
 #### Especialista en Soporte IT  
 *Feb 2012 - Mar 2014*  
 **Municipalidad de Alta Gracia**  
