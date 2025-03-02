@@ -6,7 +6,7 @@ permalink: /en/
 
 sidebar: |
   <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/assets/avatar.jpg" alt="Hallstatt" width="100" height="100">
+    <img src="{{ site.baseurl }}/assets/avatar.jpg" alt="hallstatt" width="100" height="100">
   </div>
   
   ## Facundo Ipharraguerre
