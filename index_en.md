@@ -14,6 +14,8 @@ sidebar: |
     - Final Project: "Sistema Dinámico de Adquisición y Alerta de Velocidad para la Concientización de Conductores Vehiculares" (Dynamic Speed Acquisition and Alert System for Driver Awareness).
 
 content_variable: |
-  ## Resume
+  {% capture experience_content %}
   {% include experience_en.md %}
+  {% endcapture %}
+  {{ experience_content }}
 ---
