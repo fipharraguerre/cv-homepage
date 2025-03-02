@@ -4,30 +4,18 @@
 
 .container {
     display: flex;
-    flex-direction: row; /* Default: sidebar on the left */
-    align-items: flex-start;
+    height: 100vh;
 }
 
 .sidebar {
-    width: 20%; /* Default width */
-    background-color: teal;
-    min-width: 200px;
+    width: 30%;
+    color: white;
+    padding: 20px;
 }
 
 .content {
-    flex: 1; /* Takes remaining space */
-}
-
-/* Responsive: Move sidebar above content on small screens */
-@media (max-width: 768px) { /* Adjusts for smaller screens */
-    .container {
-        flex-direction: column; /* Stack items vertically */
-    }
-
-    .sidebar {
-        width: 100%; /* Full width */
-        text-align: center;
-    }
+    width: 70%;
+    padding: 20px;
 }
 
 #language-switch {
