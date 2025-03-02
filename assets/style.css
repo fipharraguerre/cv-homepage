@@ -10,6 +10,7 @@
 
 .sidebar {
     width: 20%; /* Default width */
+    background-color: teal;
     min-width: 200px;
 }
 
