@@ -10,9 +10,7 @@ sidebar: |
   ## Education
   - B.Sc. Telecommunications Engineering [UNDEF - Instituto Universitario Aeronáutico (Córdoba, Argentina)]
     - Final Project: "Sistema Dinámico de Adquisición y Alerta de Velocidad para la Concientización de Conductores Vehiculares" (Dynamic Speed Acquisition and Alert System for Driver Awareness).
-
-content_variable: |
+---
 
 ## Resume
 {% include experience_en.md %}
----
