@@ -15,7 +15,8 @@
 
 .content {
     flex: 1; /* Takes remaining space */
-    padding: 20px;
+    padding-left: 20px; /* Adds space on the left */
+    box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
 /* Responsive: Move sidebar above content on small screens */
