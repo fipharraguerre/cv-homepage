@@ -1,5 +1,5 @@
 * {
-    font-family: "Helvetica", "Arial", "Open Sans", "Calibri", sans-serif;
+    font-family: "Helvetica", "Open Sans", "Calibri", "Arial", sans-serif;
 }
 
 .container {
@@ -15,6 +15,7 @@
 
 .content {
     flex: 1; /* Takes remaining space */
+    padding: 20px;
 }
 
 /* Responsive: Move sidebar above content on small screens */
