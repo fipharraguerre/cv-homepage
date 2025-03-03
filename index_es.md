@@ -3,6 +3,7 @@ layout: default
 title: "Mi CV en español"
 lang: "es"
 permalink: /es/
+
 sidebar: |
   ## Facundo Ipharraguerre
 
@@ -13,6 +14,7 @@ sidebar: |
   ### Educación  
   - Ingeniería en Telecomunicaciones [UNDEF - Instituto Universitario Aeronáutico (Córdoba, Argentina)]  
     - Proyecto Final: "Sistema Dinámico de Adquisición y Alerta de Velocidad para la Concientización de Conductores Vehiculares".  
+---
 
 ### Experiencia
 {% include experience_es.md %}
