@@ -12,25 +12,24 @@ sidebar: |
   - Ubicación: Córdoba, Argentina  
 
   ### Skills
-Combinación de conocimientos en infraestructura, automatización y desarrollo, abarcando redes, virtualización, scripting, bases de datos, monitoreo y metodologías de software.  
+  Combinación de conocimientos en infraestructura, automatización y desarrollo, abarcando redes, virtualización, scripting, bases de datos, monitoreo y metodologías de software.  
+  - **Infraestructura & Redes**  
+    - Administración de redes, Windows Server (Active Directory, Entra ID), Linux y Veeam Backup & Replication.  
 
-- **Infraestructura & Redes**  
-  - Administración de redes, Windows Server (Active Directory, Entra ID), Linux y Veeam Backup & Replication.  
+  - **Virtualización & Contenedores**  
+    - Experiencia en VMware ESX, Hyper-V, Proxmox (KVM), Docker (incluyendo Swarm) y Linux Containers (LXC) para despliegues escalables y flexibles.  
 
-- **Virtualización & Contenedores**  
-  - Experiencia en VMware ESX, Hyper-V, Proxmox (KVM), Docker (incluyendo Swarm) y Linux Containers (LXC) para despliegues escalables y flexibles.  
+  - **Programación & Scripting**  
+    - Desarrollo de herramientas propias para optimizar el trabajo, principalmente con Python (automatización, análisis de datos, aplicaciones web), Bash, PowerShell y C para sistemas embebidos.  
 
-- **Programación & Scripting**  
-  - Desarrollo de herramientas propias para optimizar el trabajo, principalmente con Python (automatización, análisis de datos, aplicaciones web), Bash, PowerShell y C para sistemas embebidos.  
+  - **Bases de Datos & Tecnologías Web**  
+    - Experiencia con SQL Server, MySQL, MariaDB, MongoDB, Redis, SQLite y desarrollo backend con servidores web.  
 
-- **Bases de Datos & Tecnologías Web**  
-  - Experiencia con SQL Server, MySQL, MariaDB, MongoDB, Redis, SQLite y desarrollo backend con servidores web.  
+  - **Monitoreo & Reportes**  
+    - Creación de dashboards con Grafana y procesamiento de datos con Excel para reportes y análisis.  
 
-- **Monitoreo & Reportes**  
-  - Creación de dashboards con Grafana y procesamiento de datos con Excel para reportes y análisis.  
-
-- **Metodologías & Habilidades Blandas**  
-  - Agile (SCRUM), fuerte capacidad de resolución de problemas y fluidez en español (nativo) e inglés (profesional/conversacional).  
+  - **Metodologías & Habilidades Blandas**  
+    - Agile (SCRUM), fuerte capacidad de resolución de problemas y fluidez en español (nativo) e inglés (profesional/conversacional).  
 
 ---
 
