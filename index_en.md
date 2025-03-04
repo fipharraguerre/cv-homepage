@@ -14,24 +14,42 @@ sidebar: |
   ### Skills
   <details>
     <summary>View Skills</summary>
-    
+
     - **Infrastructure & Networking**  
-      - Network administration, Windows Server (Active Directory, Entra ID), Linux, and Veeam Backup & Replication.
+      * Network administration, Windows Server (Active Directory, Entra ID)
+      * Linux server management
+      * Veeam Backup & Replication
 
     - **Virtualization & Containers**  
-      - Expertise in VMware ESX, Hyper-V, Proxmox (KVM), Docker (including Swarm), and Linux Containers (LXC) for scalable and flexible deployments.
+      * Expertise in VMware ESX
+      * Hyper-V
+      * Proxmox (KVM)
+      * Docker (including Swarm)
+      * Linux Containers (LXC) for scalable and flexible deployments
 
     - **Programming & Scripting**  
-      - Proficient in Python (automation, data analysis, web apps), Bash, PowerShell, and C for embedded systems.
+      * Python (automation, data analysis, web apps)
+      * Bash scripting
+      * PowerShell
+      * C for embedded systems
 
     - **Databases & Web Technologies**  
-      - Experience with SQL Server, MySQL, MariaDB, MongoDB, Redis, SQLite, and backend development with web servers.
+      * SQL Server
+      * MySQL and MariaDB
+      * MongoDB
+      * Redis
+      * SQLite
+      * Backend development with web servers
 
     - **Monitoring & Reporting**  
-      - Building dashboards with Grafana and processing data using Excel for reporting and analytics.
+      * Building dashboards with Grafana
+      * Data processing using Excel for reporting and analytics
 
     - **Methodologies & Soft Skills**  
-      - Agile (SCRUM), strong problem-solving, and fluency in Spanish (native) and English (professional/conversational).
+      * Agile (SCRUM)
+      * Strong problem-solving
+      * Fluent in Spanish (native)
+      * Conversational English
   </details>
 
 ---
