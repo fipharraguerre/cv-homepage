@@ -11,8 +11,12 @@ sidebar: |
   - Telecommunications Engineer with expertise in IT infrastructure and software development. 15+ years in Linux, Windows Server, cloud, networking, and automation. Skilled in security, agile methodologies, and virtualization. Experience working under an ISO 9001 quality management system. Fluent in Spanish (native) and conversational English.
   - Location: Córdoba, Argentina
   
-  ### Skills
-  A combination of infrastructure, automation, and development expertise, spanning networking, virtualization, scripting, databases, monitoring, and software methodologies.
+### Skills
+A combination of infrastructure, automation, and development expertise, spanning networking, virtualization, scripting, databases, monitoring, and software methodologies.
+
+<details>
+  <summary><strong>Click to expand</strong></summary>
+  
   - **Infrastructure & Networking**  
     - Network administration, Windows Server (Active Directory, Entra ID), Linux, and Veeam Backup & Replication.
 
@@ -22,15 +26,17 @@ sidebar: |
   - **Programming & Scripting**  
     - Proficient in Python (automation, data analysis, web apps), Bash, PowerShell, and C for embedded systems.
 
-  -  **Databases & Web Technologies**  
+  - **Databases & Web Technologies**  
     - Experience with SQL Server, MySQL, MariaDB, MongoDB, Redis, SQLite, and backend development with web servers.
 
-  -  **Monitoring & Reporting**  
+  - **Monitoring & Reporting**  
     - Building dashboards with Grafana and processing data using Excel for reporting and analytics.
 
   - **Methodologies & Soft Skills**  
     - Agile (SCRUM), strong problem-solving, and fluency in Spanish (native) and English (professional/conversational).
-  
+
+</details>
+
 ---
 
 ### Experience
