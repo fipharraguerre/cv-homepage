@@ -15,8 +15,10 @@ sidebar: |
   A combination of infrastructure, automation, and development expertise, spanning networking, virtualization, scripting, databases, monitoring, and software methodologies.
 
   <details>
-  <summary><strong>Click to expand</strong></summary>
-  
+    <summary><strong>Click to expand</strong></summary>
+
+  {% raw %}
+
   - **Infrastructure & Networking**  
     - Network administration, Windows Server (Active Directory, Entra ID), Linux, and Veeam Backup & Replication.
 
@@ -35,7 +37,9 @@ sidebar: |
   - **Methodologies & Soft Skills**  
     - Agile (SCRUM), strong problem-solving, and fluency in Spanish (native) and English (professional/conversational).
 
-  </details>
+  {% endraw %}
+
+</details>
 
 ---
 
