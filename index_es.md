@@ -36,8 +36,12 @@ sidebar: |
 ### Experience
 {% include experience_es.md %}
 
+---
+
 ### Education
 {% include education_es.md %}
+
+---
 
 ### Projects
 {% include projects_es.md %}
