@@ -64,10 +64,11 @@ details > summary {
   padding: 10px 0;
 }
 
-details > summary:hover {
-  color: #0066cc;
+details > ul {
+  margin-left: 20px;
 }
 
-details ul {
-  margin-left: 20px;
+details ul ul {
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
