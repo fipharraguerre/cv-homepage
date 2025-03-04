@@ -12,25 +12,28 @@ sidebar: |
   - Location: Córdoba, Argentina
   
   ### Skills
-  A combination of infrastructure, automation, and development expertise, spanning networking, virtualization, scripting, databases, monitoring, and software methodologies.
-  - **Infrastructure & Networking**  
-    - Network administration, Windows Server (Active Directory, Entra ID), Linux, and Veeam Backup & Replication.
+  <details>
+    <summary>View Skills</summary>
+    
+    - **Infrastructure & Networking**  
+      - Network administration, Windows Server (Active Directory, Entra ID), Linux, and Veeam Backup & Replication.
 
-  - **Virtualization & Containers**  
-    - Expertise in VMware ESX, Hyper-V, Proxmox (KVM), Docker (including Swarm), and Linux Containers (LXC) for scalable and flexible deployments.
+    - **Virtualization & Containers**  
+      - Expertise in VMware ESX, Hyper-V, Proxmox (KVM), Docker (including Swarm), and Linux Containers (LXC) for scalable and flexible deployments.
 
-  - **Programming & Scripting**  
-    - Proficient in Python (automation, data analysis, web apps), Bash, PowerShell, and C for embedded systems.
+    - **Programming & Scripting**  
+      - Proficient in Python (automation, data analysis, web apps), Bash, PowerShell, and C for embedded systems.
 
-  - **Databases & Web Technologies**  
-    - Experience with SQL Server, MySQL, MariaDB, MongoDB, Redis, SQLite, and backend development with web servers.
+    - **Databases & Web Technologies**  
+      - Experience with SQL Server, MySQL, MariaDB, MongoDB, Redis, SQLite, and backend development with web servers.
 
-  - **Monitoring & Reporting**  
-    - Building dashboards with Grafana and processing data using Excel for reporting and analytics.
+    - **Monitoring & Reporting**  
+      - Building dashboards with Grafana and processing data using Excel for reporting and analytics.
 
-  - **Methodologies & Soft Skills**  
-    - Agile (SCRUM), strong problem-solving, and fluency in Spanish (native) and English (professional/conversational).
-  
+    - **Methodologies & Soft Skills**  
+      - Agile (SCRUM), strong problem-solving, and fluency in Spanish (native) and English (professional/conversational).
+  </details>
+
 ---
 
 ### Experience
@@ -45,3 +48,4 @@ sidebar: |
 
 ### Projects
 {% include projects_en.md %}
+---
