@@ -15,41 +15,61 @@ sidebar: |
   <details>
     <summary>View Skills</summary>
 
-    - **Infrastructure & Networking**  
-      * Network administration, Windows Server (Active Directory, Entra ID)
-      * Linux server management
-      * Veeam Backup & Replication
+    <ul>
+      <li><strong>Infrastructure & Networking</strong>
+        <ul>
+          <li>Network administration, Windows Server (Active Directory, Entra ID)</li>
+          <li>Linux server management</li>
+          <li>Veeam Backup & Replication</li>
+        </ul>
+      </li>
 
-    - **Virtualization & Containers**  
-      * Expertise in VMware ESX
-      * Hyper-V
-      * Proxmox (KVM)
-      * Docker (including Swarm)
-      * Linux Containers (LXC) for scalable and flexible deployments
+      <li><strong>Virtualization & Containers</strong>
+        <ul>
+          <li>Expertise in VMware ESX</li>
+          <li>Hyper-V</li>
+          <li>Proxmox (KVM)</li>
+          <li>Docker (including Swarm)</li>
+          <li>Linux Containers (LXC) for scalable and flexible deployments</li>
+        </ul>
+      </li>
 
-    - **Programming & Scripting**  
-      * Python (automation, data analysis, web apps)
-      * Bash scripting
-      * PowerShell
-      * C for embedded systems
+      <li><strong>Programming & Scripting</strong>
+        <ul>
+          <li>Python (automation, data analysis, web apps)</li>
+          <li>Bash scripting</li>
+          <li>PowerShell</li>
+          <li>C for embedded systems</li>
+        </ul>
+      </li>
 
-    - **Databases & Web Technologies**  
-      * SQL Server
-      * MySQL and MariaDB
-      * MongoDB
-      * Redis
-      * SQLite
-      * Backend development with web servers
+      <li><strong>Databases & Web Technologies</strong>
+        <ul>
+          <li>SQL Server</li>
+          <li>MySQL and MariaDB</li>
+          <li>MongoDB</li>
+          <li>Redis</li>
+          <li>SQLite</li>
+          <li>Backend development with web servers</li>
+        </ul>
+      </li>
 
-    - **Monitoring & Reporting**  
-      * Building dashboards with Grafana
-      * Data processing using Excel for reporting and analytics
+      <li><strong>Monitoring & Reporting</strong>
+        <ul>
+          <li>Building dashboards with Grafana</li>
+          <li>Data processing using Excel for reporting and analytics</li>
+        </ul>
+      </li>
 
-    - **Methodologies & Soft Skills**  
-      * Agile (SCRUM)
-      * Strong problem-solving
-      * Fluent in Spanish (native)
-      * Conversational English
+      <li><strong>Methodologies & Soft Skills</strong>
+        <ul>
+          <li>Agile (SCRUM)</li>
+          <li>Strong problem-solving</li>
+          <li>Fluent in Spanish (native)</li>
+          <li>Conversational English</li>
+        </ul>
+      </li>
+    </ul>
   </details>
 
 ---
