@@ -29,7 +29,7 @@ sidebar: |
     - Creación de dashboards con Grafana y procesamiento de datos con Excel para reportes y análisis.  
 
   - **Metodologías & Habilidades Blandas**  
-    - Agile (SCRUM), fuerte capacidad de resolución de problemas y fluidez en español (nativo) e inglés (profesional/conversacional).  
+    - Agile (SCRUM), capacidad de resolución de problemas y fluidez en español (nativo) e inglés (profesional/conversacional).  
 
 ---
 

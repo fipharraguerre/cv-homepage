@@ -12,6 +12,7 @@ sidebar: |
   - Location: Córdoba, Argentina
   
   ### Skills
+  A combination of infrastructure, automation, and development expertise, networking, virtualization, scripting, databases, monitoring, and software methodologies.
   <details>
     <summary>View Skills</summary>
 
@@ -64,7 +65,7 @@ sidebar: |
       <li><strong>Methodologies & Soft Skills</strong>
         <ul>
           <li>Agile (SCRUM)</li>
-          <li>Strong problem-solving</li>
+          <li>Problem-solving</li>
           <li>Fluent in Spanish (native)</li>
           <li>Conversational English</li>
         </ul>
