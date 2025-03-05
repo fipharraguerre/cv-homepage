@@ -12,63 +12,88 @@ sidebar: |
   - Location: Córdoba, Argentina
   
   ### Skills
-  A combination of infrastructure, automation, and development expertise, networking, virtualization, scripting, databases, monitoring, and software methodologies.
   <details>
-    <summary>View Skills</summary>
-
+    <summary>View Technical Skills</summary>
     <ul>
-      <li><strong>Infrastructure & Networking</strong>
-        <ul>
-          <li>Network administration, Windows Server (Active Directory, Entra ID)</li>
-          <li>Linux server management</li>
-          <li>Veeam Backup & Replication</li>
-        </ul>
+      <li>
+        <details>
+          <summary>Infrastructure & Networking</summary>
+          <ul>
+            <li>
+              <details>
+                <summary>Server Management</summary>
+                <ul>
+                  <li>Windows Server (Active Directory, Entra ID)</li>
+                  <li>Linux Server Administration</li>
+                  <li>Veeam Backup & Replication</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Network Devices</summary>
+                <ul>
+                  <li>Mikrotik Routers</li>
+                  <li>Cisco Network Equipment</li>
+                  <li>Firewall Configuration</li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </details>
       </li>
 
-      <li><strong>Virtualization & Containers</strong>
-        <ul>
-          <li>Expertise in VMware ESX</li>
-          <li>Hyper-V</li>
-          <li>Proxmox (KVM)</li>
-          <li>Docker (including Swarm)</li>
-          <li>Linux Containers (LXC) for scalable and flexible deployments</li>
-        </ul>
+      <li>
+        <details>
+          <summary>Virtualization & Containers</summary>
+          <ul>
+            <li>
+              <details>
+                <summary>Hypervisors</summary>
+                <ul>
+                  <li>VMware ESX</li>
+                  <li>Hyper-V</li>
+                  <li>Proxmox (KVM)</li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Container Technologies</summary>
+                <ul>
+                  <li>Docker</li>
+                  <li>Docker Swarm</li>
+                  <li>Linux Containers (LXC)</li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </details>
       </li>
 
-      <li><strong>Programming & Scripting</strong>
-        <ul>
-          <li>Python (automation, data analysis, web apps)</li>
-          <li>Bash scripting</li>
-          <li>PowerShell</li>
-          <li>C for embedded systems</li>
-        </ul>
+      <li>
+        <details>
+          <summary>Programming & Scripting</summary>
+          <ul>
+            <li>Python (automation, data analysis)</li>
+            <li>Bash Scripting</li>
+            <li>PowerShell</li>
+            <li>C for Embedded Systems</li>
+          </ul>
+        </details>
       </li>
 
-      <li><strong>Databases & Web Technologies</strong>
-        <ul>
-          <li>SQL Server</li>
-          <li>MySQL and MariaDB</li>
-          <li>MongoDB</li>
-          <li>Redis</li>
-          <li>SQLite</li>
-          <li>Backend development with web servers</li>
-        </ul>
-      </li>
-
-      <li><strong>Monitoring & Reporting</strong>
-        <ul>
-          <li>Building dashboards with Grafana</li>
-          <li>Data processing using Excel for reporting and analytics</li>
-        </ul>
-      </li>
-
-      <li><strong>Methodologies & Soft Skills</strong>
-        <ul>
-          <li>Agile (SCRUM)</li>
-          <li>Problem-solving</li>
-          <li>Fluent in Spanish (native)</li>
-          <li>Conversational English</li>
-        </ul>
+      <li>
+        <details>
+          <summary>Databases & Web Technologies</summary>
+          <ul>
+            <li>SQL Server</li>
+            <li>MySQL and MariaDB</li>
+            <li>MongoDB</li>
+            <li>Redis</li>
+            <li>SQLite</li>
+          </ul>
+        </details>
       </li>
     </ul>
   </details>
