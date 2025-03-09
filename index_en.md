@@ -106,7 +106,10 @@ sidebar: |
 ---
 
 ### Education
-{% include education_en.md %}
+<details>
+    <summary>View Education</summary>
+	{% include education_en.md %}
+</details>
 
 ---
 
