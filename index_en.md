@@ -5,7 +5,7 @@ lang: "en"
 permalink: /en/
 
 sidebar: |
----
+***
   ## Facundo Ipharraguerre
   
   ### Profile Summary 
@@ -99,12 +99,12 @@ sidebar: |
     </ul>
   </details>
 
----
+***
 
 ### Experience
 {% include experience_en.md %}
 
----
+***
 
 ### Education
 #### B.Sc. Telecommunications Engineering  
@@ -117,7 +117,7 @@ sidebar: |
 	{% include education_en.md %}
 </details>
 
----
+***
 
 ### Projects
 {% include projects_en.md %}
