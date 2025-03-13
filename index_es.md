@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "My CV - English Version"
-lang: "en"
-permalink: /en/
+title: "Mi CV en español"
+lang: "es"
+permalink: /es/
 
 sidebar: |
   ## Facundo Ipharraguerre
