@@ -100,7 +100,7 @@ sidebar: |
 ---
 
 ### Experiencia
-  {% include experience_es.md %}
+{% include experience_es.md %}
 
 ---
 
@@ -118,6 +118,6 @@ sidebar: |
 ---
 
 ### Proyectos
-  {% include projects_es.md %}
+{% include projects_es.md %}
 
 ---

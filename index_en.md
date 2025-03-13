@@ -101,12 +101,12 @@ sidebar: |
 ---
 
 ### Experience
-  {% include experience_en.md %}
+{% include experience_en.md %}
 
 ---
 
 ### Education
-### B.Sc. Telecommunications Engineering  
+#### B.Sc. Telecommunications Engineering  
 *2024*  
 - UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)  
   - Final Project: "Sistema Dinámico de Adquisición y Alerta de Velocidad para la Concientización de Conductores Vehiculares" (Dynamic Speed Acquisition and Alert System for Driver Awareness).
@@ -119,6 +119,6 @@ sidebar: |
 ---
 
 ### Projects
-  {% include projects_en.md %}
+{% include projects_en.md %}
 
 ---
