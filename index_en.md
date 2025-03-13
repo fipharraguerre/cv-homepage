@@ -5,7 +5,7 @@ lang: "en"
 permalink: /en/
 
 sidebar: |
-***
+  ***
   ## Facundo Ipharraguerre
   
   ### Profile Summary 
