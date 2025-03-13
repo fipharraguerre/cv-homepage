@@ -11,7 +11,7 @@ sidebar: |
   - Ingeniero en Telecomunicaciones con experiencia en infraestructura IT y desarrollo de software. Más de 15 años de experiencia en Linux, Windows Server, Azure, redes y automatización. Habilidades en seguridad, metodologías ágiles y virtualización. Experiencia trabajando bajo un sistema de gestión de calidad ISO 9001. Español nativo e inglés conversacional.  
   - Ubicación: Córdoba, Argentina  
   
-### Skills
+  ### Skills
   <details>
     <summary>Ver Habilidades Técnicas</summary>
     <ul>
@@ -99,15 +99,15 @@ sidebar: |
   </details>
 ---
 
-### Experience
-{% include experience_es.md %}
+  ### Experience
+  {% include experience_es.md %}
 
 ---
 
-### Educación
-### Ingeniería en Telecomunicaciones  
-*2024*  
-- UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)  
+  ### Educación
+  ### Ingeniería en Telecomunicaciones  
+  *2024*  
+  - UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)  
     - Proyecto Final: "Sistema Dinámico de Adquisición y Alerta de Velocidad para la Concientización de Conductores Vehiculares"
 
 <details>
@@ -117,6 +117,7 @@ sidebar: |
 
 ---
 
-### Projects
-{% include projects_es.md %}
+  ### Projects
+  {% include projects_es.md %}
+
 ---
