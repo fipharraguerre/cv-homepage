@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "My CV - English Version"
+title: "Facundo Ipharraguerre - English"
 lang: "en"
 permalink: /en/
 
