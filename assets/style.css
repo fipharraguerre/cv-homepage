@@ -39,7 +39,8 @@ html, body {
 }
 
 .sidebar img {
-    margin: 20px 0;
+	margin: 20px 20px;
+	text-align: center;
 }
 
 /* Responsive: Stack sidebar above content */
