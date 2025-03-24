@@ -5,6 +5,8 @@
 	font-kerning: auto;
 	font-weight: 400;
 	line-height: 1.5em;
+	max-width: 100%; 
+	overflow-x: hidde;
 }
 
 .container {
