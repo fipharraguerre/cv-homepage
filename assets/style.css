@@ -25,9 +25,9 @@ html, body {
 .sidebar {
     width: 20%;
     min-width: 200px;
-    max-width: 20vw; /* Prevents excessive width */
+    max-width: 20vw;
     flex-shrink: 0;
-    padding-right: 20px;
+    padding: 20px 20px; /* Left and right padding */
     box-sizing: border-box;
 }
 
