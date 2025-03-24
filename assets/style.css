@@ -1,9 +1,5 @@
 * {
-	color: #444;
 	font-family: "Trebuchet MS", Arial, sans-serif;
-	font-feature-settings: "liga" 1;
-	font-kerning: auto;
-	font-weight: 400;
 	line-height: 1.5em;
 }
 
@@ -24,7 +20,7 @@ html, body {
 
 .sidebar {
     width: 20%;
-    min-width: 200px;
+    min-width: 330px;
     max-width: 20vw;
     flex-shrink: 0;
     padding: 20px 20px; /* Left and right padding */
@@ -39,8 +35,7 @@ html, body {
 }
 
 .sidebar img {
-	margin: 20px 20px;
-	text-align: center;
+    margin: 5% 0;
 }
 
 /* Responsive: Stack sidebar above content */
@@ -57,10 +52,10 @@ html, body {
 
 #language-switch {
     text-align: center;
-    background: blue;
-    border-radius: 10px;
+    background-color: aqua;
+    border-radius: 10px 10px 0 0; /* Top-left and top-right rounded, bottom corners square */
     padding: 10px;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
 #language-switch a {
@@ -73,6 +68,10 @@ html, body {
 
 #language-switch a:hover {
     color: white;
+}
+
+#avatar {
+    background-color: aqua;
 }
 
 details {
@@ -97,8 +96,4 @@ details > summary, details > ul {
     padding-left: 15px; /* Adds spacing inside details */
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block; /* Removes inline spacing issues */
-}
+
