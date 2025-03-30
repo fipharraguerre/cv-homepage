@@ -2,8 +2,8 @@
 <summary><h4 style="display: inline;">Cursos y Certificaciones</h4></summary>
 	<ul>
 		<li><strong>AZ-900:</strong> Microsoft Azure Fundamentals - <em>Esperado: 2025</em></li>
-		<li><strong>LPIC-1:</strong> Linux Administrator - <em>ACG 2020</em><a href="./assets/certs/LPIC-1_F2FE9BC58833.pdf" target="_blank">[Certificado]</a></li>
-		<li><strong>MS-10997:</strong> Office 365 Administration and Troubleshooting - <em>Intertron Education 2021</em></li>
+		<li><strong>LPIC-1:</strong> Linux Administrator - <em>ACG 2020</em><a href="../assets/certs/LPIC-1_F2FE9BC58833.pdf" target="_blank"> [Certificado]</a></li>
+		<li><strong>MS-10997:</strong> Office 365 Administration and Troubleshooting - <em>Intertron Education 2021</em><a href="../assets/certs/10997.pdf" target="_blank"> [Certificado]</a></li>
 	</ul>
 </details>
 
