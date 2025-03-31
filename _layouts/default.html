@@ -22,5 +22,29 @@
 			{{ content }}
 		</main>
     </div>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			// Calculate page load time
+			const loadTime = ((performance.now()) / 1000).toFixed(2);
+
+			// Create footer element
+			const footer = document.createElement('footer');
+			footer.style.cssText = 'font-size: 0.8em; color: #888; text-align: center; margin-top: 2em; padding: 1em;';
+
+			// Set initial footer content with load time
+			let footerText = `This page loaded in ${loadTime} seconds`;
+
+			// Check for memory API (Chrome/Chromium only)
+			if (performance && performance.memory && performance.memory.usedJSHeapSize) {
+			const memoryUsage = (performance.memory.usedJSHeapSize / (1024 * 1024)).toFixed(2);
+			footerText += ` and utilizes ${memoryUsage} MB of RAM`;
+			}
+
+			footer.textContent = footerText;
+
+			// Add footer to the end of the body
+			document.body.appendChild(footer);
+		});
+	</script>
 </body>
 </html>
