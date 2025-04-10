@@ -1,7 +1,7 @@
 <details>
 <summary><h4 style="display: inline;">Certifications and Technical Training</h4></summary>
 	<ul>
-		<li><strong>AZ-900:</strong> Microsoft Azure Fundamentals - <em>Expected: 2025</em></li>
+		<li><strong>AZ-900:</strong> Microsoft Azure Fundamentals - <em>Microsoft - Pearson VUE 2025 </em><a href="../assets/certs/az900_cert.pdf" target="_blank">[Certificate]</a></li>
 		<li><strong>LPIC-1:</strong> Linux Administrator - <em>ACG 2020 </em><a href="../assets/certs/LPIC-1_F2FE9BC58833.pdf" target="_blank">[Certificate]</a></li>
 		<li><strong>MS-10997:</strong> Office 365 Administration and Troubleshooting - <em>Intertron Education 2021 </em><a href="../assets/certs/10997.pdf" target="_blank">[Certificate]</a></li>
 	</ul>
