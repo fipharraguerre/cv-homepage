@@ -10,7 +10,7 @@
 <details>
 <summary><h4 style="display: inline;">Other Courses and Workshops</h4></summary>
 	<ul>
-		<li>Teledetección SAR - <em>CONAE 2022</em><a href="../assets/certs/SAR.pdf" target="_blank">[Certificate]</a></li>
+		<li>Teledetección SAR - <em>CONAE 2022 </em><a href="../assets/certs/SAR.pdf" target="_blank">[Certificate]</a></li>
 		<li>Introducción a la Compatibilidad Electromagnética - <em>IUA 2019</em></li>
 		<li>Conceptos Prácticos para el Diseño de un Sitio de Energía Fotovoltaica-Eólica - <em>IUA 2019</em></li>
 		<li>Introducción a la Seguridad Informática - <em>IUA 2017</em></li>
