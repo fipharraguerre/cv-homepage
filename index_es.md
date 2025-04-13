@@ -99,12 +99,10 @@ sidebar: |
   </details>
 
   ### Links
-  <ul>
-	<li><a href="docs.facundoitest.space" target="_blank">Wiki</a></li>
-	<li><a href="home.facundoitest.space" target="_blank">Homepage</a></li>
-	<li><a href="github.com/fipharraguerre" target="_blank">GitHub</a></li>
-	<li><a href="linkedin.com/in/fipharraguerre/" target="_blank">LinkedIn</a></li>
-  </ul>
+  - [Wiki](https://docs.facundoitest.space)
+  - [Homepage](https://home.facundoitest.space)
+  - [GitHub](https://github.com/fipharraguerre)
+  - [LinkedIn](https://linkedin.com/in/fipharraguerre/)
 
 ---
 

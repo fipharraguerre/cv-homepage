@@ -98,7 +98,12 @@ sidebar: |
     </ul>
   </details>
 
-
+  ### Links
+  - [Wiki](https://docs.facundoitest.space)
+  - [Homepage](https://home.facundoitest.space)
+  - [GitHub](https://github.com/fipharraguerre)
+  - [LinkedIn](https://linkedin.com/in/fipharraguerre/)
+  
 ---
 
 ### Experience
