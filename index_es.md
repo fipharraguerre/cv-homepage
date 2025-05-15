@@ -112,7 +112,7 @@ sidebar: |
 ---
 
 ### Educación
-#### Ingeniería en Telecomunicaciones  
+#### [Ingeniería en Telecomunicaciones](../assets/certs/titulo_scan.pdf)
 *2024*  
   - UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)  
     - Proyecto Final: "Sistema Dinámico de Adquisición y Alerta de Velocidad para la Concientización de Conductores Vehiculares"
