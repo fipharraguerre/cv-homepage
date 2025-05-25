@@ -1,15 +1,15 @@
-### Soporte Nivel 2 para MSP (B2B)
-*2022 - Presente*
-**Contratista Independiente para TandemStudio.cloud**
+### Soporte Nivel 2 para MSP (B2B)  
+*2022 - Presente*  
+**Contratista Independiente para TandemStudio.cloud**  
 Colaboración continua con un proveedor de servicios gestionados (MSP), brindando soporte nivel 2 y administración de sistemas.
 * Soporte y mantenimiento para más de 10 clientes a nivel nacional.
 * Administración de servidores, redes y servicios cloud (Office 365, Azure, Veeam, etc.).
 * Automatización de tareas operativas y mejora de procesos internos.
 * Interacción directa con técnicos junior y gestión de incidentes complejos.
 
-### Soporte y Administración de IT
-*2008 - Presente*
-**Autónomo / Contratista**
+### Soporte y Administración de IT  
+*2008 - Presente*  
+**Autónomo / Contratista**  
 Administración y soporte de infraestructura IT para empresas, con foco en automatización, migraciones a la nube y seguridad.
 * Diseño y gestión de redes cableadas, inalámbricas, enlaces punto a punto y redes virtuales.
 * Instalación y mantenimiento de sistemas PBX, cableado estructurado y soluciones de conectividad en sitio.

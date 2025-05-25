@@ -1,15 +1,15 @@
-### Level 2 Support for MSP (B2B)
-*2022 – Present*
-**Independent Contractor**
+### Level 2 Support for MSP (B2B)  
+*2022 – Present*  
+**Independent Contractor**  
 Ongoing collaboration with a Managed Services Provider (MSP), delivering Level 2 technical support and advanced system administration.
 * Supported and maintained infrastructure for 10+ clients nationwide.
 * Managed servers, networks, and cloud services (Office 365, Azure, Veeam, etc.).
 * Automated routine operations and improved internal technical workflows.
 * Handled escalated incidents and provided guidance to junior technicians.
 
-### IT Support and Administration
-*2008 – Present*
-**Self-Employed / Contractor**
+### IT Support and Administration  
+*2008 – Present*  
+**Self-Employed / Contractor**  
 Administration and support of IT infrastructure for small and medium-sized businesses, with a focus on automation, cloud migrations, and security.
 * Designed and managed wired, wireless, virtual, and point-to-point networks.
 * Installed and maintained PBX systems, structured cabling, and on-site connectivity solutions.
