@@ -1,6 +1,6 @@
 ### Level 2 Support for MSP (B2B)  
 *2022 – Present*  
-**Independent Contractor**  
+**Independent Contractor at TandemStudio.cloud**  
 Ongoing collaboration with a Managed Services Provider (MSP), delivering Level 2 technical support and advanced system administration.
 * Supported and maintained infrastructure for 10+ clients nationwide.
 * Managed servers, networks, and cloud services (Office 365, Azure, Veeam, etc.).
