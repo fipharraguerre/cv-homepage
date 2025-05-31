@@ -28,7 +28,7 @@ Managed IT infrastructure and user support for "Bolsa y Cámara de Cereales de C
 
 #### Software Engineering Intern  
 *Aug 2017 - Dec 2017*  
-**Embedded Systems Lab - IUA**  
+**Embedded Systems Lab - IUA** [Final Essay](../assets/docs/informeLabSE.pdf)  
 Developed embedded systems applications and drivers using C and Python.  
 - Worked with Raspberry Pi expansion boards (IMU, temperature, LED matrix, etc).  
 - Developed and tested low-level drivers.  

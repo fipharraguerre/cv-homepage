@@ -28,7 +28,7 @@ Gestión de infraestructura IT y soporte a usuarios en la "Bolsa y Cámara de Ce
 
 #### Pasante en Ingeniería de Software  
 *Ago 2017 - Dic 2017*  
-**Laboratorio de Sistemas Embebidos - IUA**  
+**Laboratorio de Sistemas Embebidos - IUA** [Informe Final](../assets/docs/informeLabSE.pdf)  
 Desarrollo de aplicaciones y controladores para sistemas embebidos utilizando C y Python.  
 - Trabajo con placas de expansión para Raspberry Pi (IMU, temperatura, matriz de LEDs, etc.).  
 - Desarrollo y prueba de controladores de bajo nivel.  
