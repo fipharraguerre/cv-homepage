@@ -2,19 +2,19 @@
 *2022 – Present*  
 **Independent Contractor at TandemStudio.cloud**  
 Ongoing collaboration with a Managed Services Provider (MSP), delivering Level 2 technical support and advanced system administration.
-* Supported and maintained infrastructure for 10+ clients nationwide.
-* Managed servers, networks, and cloud services (Office 365, Azure, Veeam, etc.).
-* Automated routine operations and improved internal technical workflows.
-* Handled escalated incidents and provided guidance to junior technicians.
+- Supported and maintained infrastructure for 10+ clients nationwide.
+- Managed servers, networks, and cloud services (Office 365, Azure, Veeam, etc.).
+- Automated routine operations and improved internal technical workflows.
+- Handled escalated incidents and provided guidance to junior technicians.
 
 ### IT Support and Administration  
 *2008 – Present*  
 **Self-Employed / Contractor**  
 Administration and support of IT infrastructure for small and medium-sized businesses, with a focus on automation, cloud migrations, and security.
-* Designed and managed wired, wireless, virtual, and point-to-point networks.
-* Installed and maintained PBX systems, structured cabling, and on-site connectivity solutions.
-* Administered Office 365, Active Directory, Entra ID, Azure, and Linux-based servers.
-* Provided technical support and project-based services for clients across various industries.
+- Designed and managed wired, wireless, virtual, and point-to-point networks.
+- Installed and maintained PBX systems, structured cabling, and on-site connectivity solutions.
+- Administered Office 365, Active Directory, Entra ID, Azure, and Linux-based servers.
+- Provided technical support and project-based services for clients across various industries.
 
 ### IT Systems Administrator  
 *Feb 2020 - Jun 2023*  
@@ -47,3 +47,5 @@ Led networking and server administration efforts, improving connectivity and sys
 Provided hardware diagnostics, repair, and customer support for desktops and laptops.  
 - Performed hardware troubleshooting and assembly.  
 - Delivered customer support for technical issues.  
+
+---

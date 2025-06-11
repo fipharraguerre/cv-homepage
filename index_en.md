@@ -123,8 +123,3 @@ sidebar: |
 </details>
 
 ---
-
-### Projects
-{% include projects_en.md %}
-
----
