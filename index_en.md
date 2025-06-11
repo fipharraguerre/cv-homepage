@@ -8,7 +8,7 @@ sidebar: |
   ## Facundo Ipharraguerre
   
   ### Profile Summary 
-  - Telecommunications Engineer with expertise in IT infrastructure and software development. 15+ years in Linux, Windows Server, cloud, networking, and automation. Skilled in security, agile methodologies, and virtualization. Experience working under an ISO 9001 quality management system. Fluent in Spanish (native) and conversational English.
+  - Telecommunications Engineer & Systems Administrator with software development and ISO experience. Spanish/English.
   - Location: Córdoba, Argentina
   
   ### Skills

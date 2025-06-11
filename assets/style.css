@@ -188,16 +188,6 @@ body {
     margin: 0 0 20px 0;
 }
 
-/* Lists in content */
-.content ul {
-    margin: 10px 0 15px 25px;
-}
-
-.content li {
-    margin-bottom: 6px;
-    line-height: 1.4;
-}
-
 /* Links in content */
 .content a {
     color: #2c5aa0;
