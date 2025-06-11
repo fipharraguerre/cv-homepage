@@ -92,6 +92,7 @@ body {
 /* Avatar */
 #avatar {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #avatar img {
