@@ -1,60 +1,305 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
-    <link rel="icon" href="{{ site.baseurl }}/assets/favicon.ico" type="image/x-icon">
-    <!--[if IE 6]>
+    <title>Facundo Ipharraguerre - CV</title>
     <style>
-        /* Additional IE6-specific fixes if needed */
-        .sidebar { position: relative; }
-        .content { position: relative; }
+        /* IE6-friendly CSS - using only basic properties */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.4;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            width: 95%;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #333;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            clear: both;
+        }
+        
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            background-color: #e8e8e8;
+            padding: 8px 12px;
+            margin-bottom: 15px;
+            border-left: 4px solid #666;
+        }
+        
+        .job-entry {
+            margin-bottom: 20px;
+            padding: 12px;
+            border: 1px solid #e0e0e0;
+            background-color: #fafafa;
+        }
+        
+        .job-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 5px;
+        }
+        
+        .job-period {
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .company-name {
+            font-style: italic;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .job-description {
+            margin-bottom: 8px;
+            text-align: justify;
+        }
+        
+        .job-bullets {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+        
+        .job-bullets li {
+            margin-bottom: 4px;
+        }
+        
+        .education-entry {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-left: 3px solid #2c5aa0;
+            background-color: #f9f9f9;
+        }
+        
+        .degree-title {
+            font-weight: bold;
+            color: #2c5aa0;
+            font-size: 16px;
+        }
+        
+        .institution {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .cert-entry {
+            margin-bottom: 10px;
+            padding: 8px;
+            background-color: #f0f8ff;
+            border: 1px dotted #ccc;
+        }
+        
+        .cert-name {
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        
+        .cert-provider {
+            color: #666;
+            font-size: 13px;
+        }
+        
+        .project-entry {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 5px;
+        }
+        
+        .divider {
+            height: 1px;
+            background-color: #ccc;
+            margin: 20px 0;
+            border: none;
+        }
+        
+        a {
+            color: #2c5aa0;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            color: #1a3d6b;
+            background-color: #f0f8ff;
+        }
+        
+        /* Simple two-column layout for larger screens */
+        .two-column {
+            width: 48%;
+            float: left;
+            margin-right: 4%;
+        }
+        
+        .two-column.last {
+            margin-right: 0;
+        }
     </style>
-    <![endif]-->
 </head>
 <body>
     <div class="container">
-        <aside class="sidebar">
-            <div id="language-switch">
-                <a href="{{ site.baseurl }}/es/">🇪🇸 Español</a> | <a href="{{ site.baseurl }}/en/">🇬🇧 English</a>
+        <div class="header">
+            <h1>Facundo Ipharraguerre</h1>
+            <p>Telecommunications Engineer & Systems Administrator with software development and ISO experience. Spanish/English.</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Experience</div>
+            
+            <div class="job-entry">
+                <div class="job-title">Level 2 Support for MSP (B2B)</div>
+                <div class="job-period">2022 – Present</div>
+                <div class="company-name">Independent Contractor at TandemStudio.cloud</div>
+                <div class="job-description">
+                    Ongoing collaboration with a Managed Services Provider (MSP), delivering Level 2 technical support and advanced system administration.
+                </div>
+                <ul class="job-bullets">
+                    <li>Supported and maintained infrastructure for 10+ clients nationwide</li>
+                    <li>Managed servers, networks, and cloud services (Office 365, Azure, Veeam, etc.)</li>
+                    <li>Automated routine operations and improved internal technical workflows</li>
+                    <li>Handled escalated incidents and provided guidance to junior technicians</li>
+                </ul>
             </div>
-            <div id="avatar">
-                <img src="{{ site.baseurl }}/assets/avatar.jpg" alt="Profile picture" width="100" height="100" style="border-radius: 50%;">
+
+            <div class="job-entry">
+                <div class="job-title">IT Support and Administration</div>
+                <div class="job-period">2008 – Present</div>
+                <div class="company-name">Self-Employed / Contractor</div>
+                <div class="job-description">
+                    Administration and support of IT infrastructure for small and medium-sized businesses, with a focus on automation, cloud migrations, and security.
+                </div>
+                <ul class="job-bullets">
+                    <li>Designed and managed wired, wireless, virtual, and point-to-point networks</li>
+                    <li>Installed and maintained PBX systems, structured cabling, and on-site connectivity solutions</li>
+                    <li>Administered Office 365, Active Directory, Entra ID, Azure, and Linux-based servers</li>
+                    <li>Provided technical support and project-based services for clients across various industries</li>
+                </ul>
             </div>
-            <div class="sidebar-content">
-                {{ page.sidebar | markdownify }}
+
+            <div class="job-entry">
+                <div class="job-title">IT Systems Administrator</div>
+                <div class="job-period">Feb 2020 - Jun 2023</div>
+                <div class="company-name">Dicsys S.A.</div>
+                <div class="job-description">
+                    Managed IT infrastructure and user support for "Bolsa y Cámara de Cereales de Córdoba." Collaborated with agile teams and ensured system availability.
+                </div>
+                <ul class="job-bullets">
+                    <li>Administered and monitored servers and networks</li>
+                    <li>Managed AD, Microsoft 365 licensing, and user access</li>
+                    <li>Provided hardware support, troubleshooting, and vendor coordination</li>
+                </ul>
             </div>
-        </aside>
-        <main class="content">
-            {{ content }}
-        </main>
-        <div style="clear: both;"></div> <!-- IE6 clearfix -->
+
+            <div class="job-entry">
+                <div class="job-title">Software Engineering Intern</div>
+                <div class="job-period">Aug 2017 - Dec 2017</div>
+                <div class="company-name">Embedded Systems Lab - IUA</div>
+                <div class="job-description">
+                    Developed embedded systems applications and drivers using C and Python.
+                    <a href="../assets/docs/informeLabSE.pdf">[Final Essay]</a>
+                </div>
+                <ul class="job-bullets">
+                    <li>Worked with Raspberry Pi expansion boards (IMU, temperature, LED matrix, etc)</li>
+                    <li>Developed and tested low-level drivers</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="section">
+            <div class="section-title">Education, Certifications & Training</div>
+            
+            <div class="education-entry">
+                <div class="degree-title">
+                    <a href="../assets/certs/titulo_scan.pdf">B.Sc. Telecommunications Engineering</a>
+                </div>
+                <div class="job-period">2024</div>
+                <div class="institution">UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)</div>
+                <div class="job-description">
+                    <strong>Final Project:</strong> "Sistema Dinámico de Adquisición y Alerta de Velocidad para la Concientización de Conductores Vehiculares" (Dynamic Speed Acquisition and Alert System for Driver Awareness)
+                </div>
+            </div>
+            <div class="two-column">
+                <h3 style="color: #2c5aa0; margin-top: 0;">Technical Certifications</h3>
+                
+                <div class="cert-entry">
+                    <div class="cert-name">AZ-900: Microsoft Azure Fundamentals</div>
+                    <div class="cert-provider">Microsoft - Pearson VUE 2025</div>
+                    <a href="../assets/certs/az900_cert.pdf">[Certificate]</a>
+                </div>
+                
+                <div class="cert-entry">
+                    <div class="cert-name">LPIC-1: Linux Administrator</div>
+                    <div class="cert-provider">ACG 2020</div>
+                    <a href="../assets/certs/LPIC-1_F2FE9BC58833.pdf">[Certificate]</a>
+                </div>
+                
+                <div class="cert-entry">
+                    <div class="cert-name">MS-10997: Office 365 Administration</div>
+                    <div class="cert-provider">Intertron Education 2021</div>
+                    <a href="../assets/certs/10997.pdf">[Certificate]</a>
+                </div>
+            </div>
+            
+            <div class="two-column last">
+                <h3 style="color: #2c5aa0; margin-top: 0;">Additional Training</h3>
+                
+                <div class="cert-entry">
+                    <div class="cert-name">Teledetección SAR</div>
+                    <div class="cert-provider">CONAE 2022</div>
+                    <a href="../assets/certs/SAR.pdf">[Certificate]</a>
+                </div>
+                
+                <div class="cert-entry">
+                    <div class="cert-name">Introducción a la Compatibilidad Electromagnética</div>
+                    <div class="cert-provider">IUA 2019</div>
+                </div>
+                
+                <div class="cert-entry">
+                    <div class="cert-name">Conceptos Prácticos para el Diseño de un Sitio de Energía Fotovoltaica-Eólica</div>
+                    <div class="cert-provider">IUA 2019</div>
+                </div>
+            </div>
+            
+            <div style="clear: both;"></div>
+        </div>
+
+        <hr class="divider">
+
+        
     </div>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Calculate page load time
-            const loadTime = ((performance.now()) / 1000).toFixed(2);
-
-            // Create footer element
-            const footer = document.createElement('footer');
-
-            // Set initial footer content with load time
-            let footerText = `This page loaded in ${loadTime} seconds`;
-
-            // Check for memory API (Chrome/Chromium only)
-            if (performance && performance.memory && performance.memory.usedJSHeapSize) {
-                const memoryUsage = (performance.memory.usedJSHeapSize / (1024 * 1024)).toFixed(2);
-                footerText += ` and utilizes ${memoryUsage} MB of RAM`;
-            }
-
-            footer.textContent = footerText;
-
-            // Add footer to the container, not body
-            document.querySelector('.container').appendChild(footer);
-        });
-    </script>
 </body>
 </html>
