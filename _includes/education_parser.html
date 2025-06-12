@@ -1,0 +1,178 @@
+<!-- Education Parser Include: _includes/education_parser.html -->
+<div class="education-section">
+    <div class="section-title">Education, Certifications & Training</div>
+    
+    <!-- Main degree section -->
+    <div class="degree-title">
+        {% if page.lang == "es" %}
+            <h4><a href="../assets/certs/titulo_scan.pdf" target="_blank">Ingeniería en Telecomunicaciones</a></h4>
+            <p>2024 - UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)</p>
+            <p><em>Proyecto Final: "Sistema Dinámico de Adquisición y Alerta de Velocidad para la Concientización de Conductores Vehiculares"</em></p>
+        {% else %}
+            <h4><a href="../assets/certs/titulo_scan.pdf" target="_blank">B.Sc. Telecommunications Engineering</a></h4>
+            <p>2024 - UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)</p>
+            <p><em>Final Project: "Dynamic Speed Acquisition and Alert System for Driver Awareness"</em></p>
+        {% endif %}
+    </div>
+
+    <div class="two-column-edu">
+        <div class="left-edu-column">
+            {% if page.lang == "es" %}
+                <h3>Certificaciones Técnicas</h3>
+            {% else %}
+                <h3>Technical Certifications</h3>
+            {% endif %}
+            
+            <table class="edu-table">
+                <thead>
+                    <tr>
+                        {% if page.lang == "es" %}
+                            <th>Certificación</th>
+                            <th>Organización</th>
+                            <th>Año</th>
+                        {% else %}
+                            <th>Certification</th>
+                            <th>Organization</th>
+                            <th>Year</th>
+                        {% endif %}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="cert-name">AZ-900: Microsoft Azure Fundamentals</td>
+                        <td class="cert-org">Microsoft - Pearson VUE</td>
+                        <td class="cert-year">2025
+                            <div class="cert-link">
+                                {% if page.lang == "es" %}
+                                    <a href="../assets/certs/az900_cert.pdf" target="_blank">[Certificado]</a>
+                                {% else %}
+                                    <a href="../assets/certs/az900_cert.pdf" target="_blank">[Certificate]</a>
+                                {% endif %}
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cert-name">LPIC-1: Linux Administrator</td>
+                        <td class="cert-org">ACG</td>
+                        <td class="cert-year">2020
+                            <div class="cert-link">
+                                {% if page.lang == "es" %}
+                                    <a href="../assets/certs/LPIC-1_F2FE9BC58833.pdf" target="_blank">[Certificado]</a>
+                                {% else %}
+                                    <a href="../assets/certs/LPIC-1_F2FE9BC58833.pdf" target="_blank">[Certificate]</a>
+                                {% endif %}
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cert-name">MS-10997: Office 365 Administration</td>
+                        <td class="cert-org">Intertron Education</td>
+                        <td class="cert-year">2021
+                            <div class="cert-link">
+                                {% if page.lang == "es" %}
+                                    <a href="../assets/certs/10997.pdf" target="_blank">[Certificado]</a>
+                                {% else %}
+                                    <a href="../assets/certs/10997.pdf" target="_blank">[Certificate]</a>
+                                {% endif %}
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="right-edu-column">
+            {% if page.lang == "es" %}
+                <h3>Capacitación Adicional</h3>
+            {% else %}
+                <h3>Additional Training</h3>
+            {% endif %}
+            
+            <table class="edu-table">
+                <thead>
+                    <tr>
+                        {% if page.lang == "es" %}
+                            <th>Curso</th>
+                            <th>Institución</th>
+                            <th>Año</th>
+                        {% else %}
+                            <th>Course</th>
+                            <th>Institution</th>
+                            <th>Year</th>
+                        {% endif %}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="cert-name">Teledetección SAR</td>
+                        <td class="cert-org">CONAE</td>
+                        <td class="cert-year">2022
+                            <div class="cert-link">
+                                {% if page.lang == "es" %}
+                                    <a href="../assets/certs/SAR.pdf" target="_blank">[Certificado]</a>
+                                {% else %}
+                                    <a href="../assets/certs/SAR.pdf" target="_blank">[Certificate]</a>
+                                {% endif %}
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cert-name">
+                            {% if page.lang == "es" %}
+                                Compatibilidad Electromagnética
+                            {% else %}
+                                Electromagnetic Compatibility
+                            {% endif %}
+                        </td>
+                        <td class="cert-org">IUA</td>
+                        <td class="cert-year">2019</td>
+                    </tr>
+                    <tr>
+                        <td class="cert-name">
+                            {% if page.lang == "es" %}
+                                Energía Fotovoltaica-Eólica
+                            {% else %}
+                                Photovoltaic-Wind Energy
+                            {% endif %}
+                        </td>
+                        <td class="cert-org">IUA</td>
+                        <td class="cert-year">2019</td>
+                    </tr>
+                    <tr>
+                        <td class="cert-name">
+                            {% if page.lang == "es" %}
+                                Seguridad Informática
+                            {% else %}
+                                Information Security
+                            {% endif %}
+                        </td>
+                        <td class="cert-org">IUA</td>
+                        <td class="cert-year">2017</td>
+                    </tr>
+                    <tr>
+                        <td class="cert-name">SECOM 2016: Sistemas 3G</td>
+                        <td class="cert-org">UTN FRC</td>
+                        <td class="cert-year">2016</td>
+                    </tr>
+                    <tr>
+                        <td class="cert-name">
+                            {% if page.lang == "es" %}
+                                Cómputo de Altas Prestaciones
+                            {% else %}
+                                High Performance Computing
+                            {% endif %}
+                        </td>
+                        <td class="cert-org">IUA</td>
+                        <td class="cert-year">2013</td>
+                    </tr>
+                    <tr>
+                        <td class="cert-name">Elementos de Matemática</td>
+                        <td class="cert-org">UNC</td>
+                        <td class="cert-year">2008</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+</div>
