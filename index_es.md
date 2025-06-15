@@ -11,7 +11,7 @@ sidebar: |
   - Ingeniero en Telecomunicaciones con experiencia en infraestructura, Linux, Windows Server, Azure, redes, automatización y desarrollo de software. Experiencia en SCRUM e ISO 9001. Español nativo e inglés conversacional.  
   - Ubicación: Córdoba, Argentina  
   
-  ### Skills
+  ### Habilidades
 
   **Infraestructura y Redes**
   - Windows Server (AD, Entra ID)
