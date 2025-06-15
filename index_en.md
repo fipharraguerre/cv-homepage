@@ -106,7 +106,6 @@ sidebar: |
   
 ---
 
-### Experience
 {% include experience_en.md %}
 
 ---

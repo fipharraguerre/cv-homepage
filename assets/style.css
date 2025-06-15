@@ -1,6 +1,5 @@
-/* IE6-Friendly Jekyll CV Styles */
+/* Minimalist CV Stylesheet with Education/Certification Layout */
 
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,72 +7,28 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
+    color: #222;
+    background-color: #fff;
     line-height: 1.5;
-    color: #333;
-    background-color: #f5f5f5;
 }
 
-/* Container layout */
 .container {
     width: 95%;
-    max-width: 1200px;
+    max-width: 960px;
     margin: 0 auto;
-    background-color: white;
-    border: 1px solid #ddd;
-    overflow: hidden; /* IE6 clearfix */
+    overflow: hidden;
 }
 
-/* Sidebar styles */
 .sidebar {
-    width: 280px;
     float: left;
-    background-color: #f8f9fa;
-    border-right: 1px solid #e0e0e0;
-    padding: 20px;
-    min-height: 100vh;
+    width: 25%;
+    padding: 15px;
+    background: #f2f2f2;
+    border-right: 1px solid #ccc;
 }
 
-.sidebar h2 {
-    color: #2c5aa0;
-    font-size: 22px;
-    margin-bottom: 15px;
-    text-align: center;
-    border-bottom: 2px solid #2c5aa0;
-    padding-bottom: 8px;
-}
-
-.sidebar h3 {
-    color: #333;
-    font-size: 16px;
-    margin: 20px 0 10px 0;
-    padding: 8px;
-    background-color: #e8e8e8;
-    border-left: 3px solid #2c5aa0;
-}
-
-.sidebar ul {
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
-
-.sidebar li {
-    margin-bottom: 5px;
-    line-height: 1.4;
-}
-
-.sidebar a {
-    color: #2c5aa0;
-    text-decoration: none;
-}
-
-.sidebar a:hover {
-    color: #1a3d6b;
-    text-decoration: underline;
-}
-
-/* Language switch */
 #language-switch {
     text-align: center;
     margin-bottom: 20px;
@@ -89,7 +44,6 @@ body {
     font-weight: bold;
 }
 
-/* Avatar */
 #avatar {
     margin-bottom: 20px;
     text-align: center;
@@ -97,485 +51,204 @@ body {
 
 #avatar img {
     border: 3px solid #2c5aa0;
+    border-radius: 50%;
 }
 
-/* Details/Summary styling for sidebar */
-.sidebar details {
-    margin-bottom: 15px;
-}
-
-.sidebar summary {
-    cursor: pointer;
-    font-weight: bold;
-    color: #2c5aa0;
-    margin-bottom: 8px;
-    padding: 5px;
-    background-color: #f0f8ff;
-    border: 1px solid #ddd;
-}
-
-.sidebar summary:hover {
-    background-color: #e0f0ff;
-}
-
-/* Main content area */
 .content {
-    margin-left: 300px; /* sidebar width + padding */
-    padding: 30px;
-    background-color: white;
+    float: left;
+    width: 70%;
+    padding: 20px;
 }
 
-/* Typography for main content */
-.content h1 {
-    color: #2c5aa0;
-    font-size: 28px;
-    margin-bottom: 20px;
-    border-bottom: 3px solid #2c5aa0;
-    padding-bottom: 10px;
+h1, h2, h3 {
+    margin: 20px 0 10px;
+    color: #004080;
 }
 
-.content h2 {
-    color: #333;
-    font-size: 22px;
-    margin: 30px 0 15px 0;
-    padding: 10px 15px;
-    background-color: #f0f8ff;
-    border-left: 4px solid #2c5aa0;
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+h3 { font-size: 16px; }
+
+ul {
+    margin: 10px 0 20px 20px;
 }
 
-.content h3 {
-    color: #2c5aa0;
-    font-size: 18px;
-    margin: 25px 0 10px 0;
-    font-weight: bold;
+a {
+    color: #004080;
+    text-decoration: none;
 }
-
-.content h4 {
-    color: #333;
-    font-size: 16px;
-    margin: 20px 0 8px 0;
-    font-weight: bold;
-}
-
-/* Experience entries */
-.content h3 + p em {
-    color: #666;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-}
-
-.content h3 + p strong {
-    color: #2c5aa0;
-    display: block;
-    margin-bottom: 8px;
-}
-
-/* Create job entry boxes */
-.content h3 {
-    background-color: #fafafa;
-    border: 1px solid #e0e0e0;
-    padding: 12px;
-    margin: 20px 0 0 0;
-}
-
-.content h3 + p,
-.content h3 + p + ul,
-.content h3 + p + p {
-    background-color: #fafafa;
-    border: 1px solid #e0e0e0;
-    border-top: none;
-    padding: 0 12px 12px 12px;
-    margin: 0 0 20px 0;
-}
-
-/* Links in content */
-.content a {
-    color: #2c5aa0;
+a:hover {
     text-decoration: underline;
 }
 
-.content a:hover {
-    color: #1a3d6b;
+footer {
+    clear: both;
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+/* Education section and certifications */
+.education-section {
+    margin-bottom: 30px;
+    clear: both;
+}
+
+.education-section .section-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 15px;
+    margin-bottom: 20px;
     background-color: #f0f8ff;
 }
 
-/* Horizontal rules */
-hr {
-    height: 2px;
-    background-color: #ccc;
-    border: none;
-    margin: 30px 0;
+.degree-title {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #2c5aa0;
+    border: 1px solid #e0e0e0;
 }
 
-/* Details/Summary in main content */
-.content details {
-    margin: 15px 0;
+.degree-title h4 {
+    margin: 0 0 8px 0;
+    color: #2c5aa0;
+    font-size: 18px;
+}
+
+.degree-title p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.degree-title p em {
+    color: #555;
+    font-style: italic;
+}
+
+.two-column-edu {
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-edu-column, .right-edu-column {
+    width: 48%;
+    float: left;
+}
+
+.left-edu-column {
+    margin-right: 4%;
+}
+
+.two-column-edu h3 {
+    color: #2c5aa0;
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    padding: 8px 12px;
+    background-color: #e8e8e8;
+    border-left: 4px solid #2c5aa0;
+}
+
+.edu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 13px;
+    background-color: #fff;
     border: 1px solid #ddd;
+}
+
+.edu-table th {
+    background-color: #2c5aa0;
+    color: white;
+    padding: 8px 6px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.edu-table td {
+    padding: 8px 6px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+
+.edu-table tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-.content summary {
-    cursor: pointer;
-    padding: 12px;
+.edu-table tr:hover {
     background-color: #f0f8ff;
-    border-bottom: 1px solid #ddd;
-    font-weight: bold;
+}
+
+.cert-name { font-weight: bold; color: #2c5aa0; }
+.cert-org { color: #666; font-style: italic; }
+.cert-year { font-weight: bold; color: #333; }
+.cert-link { margin-top: 3px; font-size: 11px; }
+
+.cert-link a {
     color: #2c5aa0;
+    text-decoration: none;
 }
 
-.content summary:hover {
-    background-color: #e0f0ff;
+.cert-link a:hover {
+    color: #1a3d6b;
+    text-decoration: underline;
 }
 
-.content details[open] summary {
-    border-bottom: 1px solid #ddd;
-}
-
-.content details ul {
-    padding: 15px;
-    margin: 0;
-}
-
-.content details li {
-    margin-bottom: 8px;
-}
-
-/* Education section special styling */
-.content h4 a {
-    color: #2c5aa0;
-    font-weight: bold;
-}
-
-/* Project links styling */
-.content details ul li strong a {
-    color: #2c5aa0;
-    font-weight: bold;
-}
-
-/* Footer */
-footer {
-    clear: both;
-    font-size: 0.8em;
-    color: #888;
-    text-align: right;
-    margin-top: 1em;
-    padding: 1em;
-    border-top: 1px solid #eee;
-    background-color: #f8f9fa;
-}
-
-/* Print styles */
-@media print {
-    body {
-        background-color: white;
+@media screen and (max-width: 768px) {
+    .left-edu-column,
+    .right-edu-column {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .edu-table {
         font-size: 12px;
     }
-    
-    .container {
+    .edu-table th,
+    .edu-table td {
+        padding: 6px 4px;
+    }
+    .edu-table th {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .edu-table, .edu-table thead, .edu-table tbody, .edu-table th, .edu-table td, .edu-table tr {
+        display: block;
+    }
+    .edu-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .edu-table tr {
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+        padding: 8px;
+        background-color: #f9f9f9;
+    }
+    .edu-table td {
         border: none;
-        width: 100%;
-        max-width: none;
+        padding: 4px 0;
+        position: relative;
+        padding-left: 50%;
     }
-    
-    .sidebar {
-        width: 25%;
-        min-height: auto;
-    }
-    
-    .content {
-        margin-left: 26%;
-    }
-    
-    #language-switch {
-        display: none;
-    }
-    
-    footer {
-        display: none;
-    }
-    
-    .content details {
-        border: none;
-    }
-    
-    .content summary {
-        background-color: transparent;
-        border: none;
+    .edu-table td:before {
+        content: attr(data-label) ": ";
+        position: absolute;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
         font-weight: bold;
+        color: #2c5aa0;
     }
 }
-
-/* IE6 specific fixes */
-* html .container {
-    height: 1%; /* IE6 hasLayout trigger */
-}
-
-* html .sidebar {
-    height: 1%;
-}
-
-* html .content {
-    height: 1%;
-}
-
-/* Clearfix for IE6 */
-.container:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-
-* html .container {
-    zoom: 1; /* IE6 hasLayout */
-}
-
-        /* Education section specific styles */
-        .education-section {
-            margin-bottom: 30px;
-            clear: both;
-        }
-        
-        .education-section .section-title {
-            font-size: 22px;
-            font-weight: bold;
-            color: #333;
-            padding: 10px 15px;
-            margin-bottom: 20px;
-            background-color: #f0f8ff;
-            border-left: 4px solid #2c5aa0;
-        }
-        
-        /* Main degree section */
-        .degree-title {
-            margin-bottom: 25px;
-            padding: 15px;
-            background-color: #f9f9f9;
-            border-left: 3px solid #2c5aa0;
-            border: 1px solid #e0e0e0;
-        }
-        
-        .degree-title h4 {
-            margin: 0 0 8px 0;
-            color: #2c5aa0;
-            font-size: 18px;
-        }
-        
-        .degree-title p {
-            margin: 5px 0;
-            color: #666;
-        }
-        
-        .degree-title p em {
-            color: #555;
-            font-style: italic;
-        }
-        
-        /* Two-column layout for certifications */
-        .two-column-edu {
-            width: 100%;
-            overflow: hidden; /* IE6 clearfix */
-        }
-        
-        .left-edu-column {
-            width: 48%;
-            float: left;
-            margin-right: 4%;
-        }
-        
-        .right-edu-column {
-            width: 48%;
-            float: right;
-        }
-        
-        .two-column-edu h3 {
-            color: #2c5aa0;
-            font-size: 18px;
-            margin: 0 0 15px 0;
-            padding: 8px 12px;
-            background-color: #e8e8e8;
-            border-left: 4px solid #2c5aa0;
-        }
-        
-        /* Table styling for certifications */
-        .edu-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-            font-size: 13px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-        }
-        
-        .edu-table th {
-            background-color: #2c5aa0;
-            color: white;
-            padding: 8px 6px;
-            text-align: left;
-            font-weight: bold;
-            font-size: 12px;
-        }
-        
-        .edu-table td {
-            padding: 8px 6px;
-            border-bottom: 1px solid #eee;
-            vertical-align: top;
-        }
-        
-        .edu-table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        
-        .edu-table tr:hover {
-            background-color: #f0f8ff;
-        }
-        
-        .cert-name {
-            font-weight: bold;
-            color: #2c5aa0;
-        }
-        
-        .cert-org {
-            color: #666;
-            font-style: italic;
-        }
-        
-        .cert-year {
-            font-weight: bold;
-            color: #333;
-        }
-        
-        .cert-link {
-            margin-top: 3px;
-            font-size: 11px;
-        }
-        
-        .cert-link a {
-            color: #2c5aa0;
-            text-decoration: none;
-            font-weight: normal;
-        }
-        
-        .cert-link a:hover {
-            color: #1a3d6b;
-            text-decoration: underline;
-        }
-        
-        /* Responsive design */
-        @media screen and (max-width: 768px) {
-            .left-edu-column,
-            .right-edu-column {
-                width: 100%;
-                float: none;
-                margin-right: 0;
-                margin-bottom: 20px;
-            }
-            
-            .edu-table {
-                font-size: 12px;
-            }
-            
-            .edu-table th,
-            .edu-table td {
-                padding: 6px 4px;
-            }
-            
-            .edu-table th {
-                font-size: 11px;
-            }
-        }
-        
-        @media screen and (max-width: 480px) {
-            /* Stack table contents vertically on very small screens */
-            .edu-table,
-            .edu-table thead,
-            .edu-table tbody,
-            .edu-table th,
-            .edu-table td,
-            .edu-table tr {
-                display: block;
-            }
-            
-            .edu-table thead tr {
-                position: absolute;
-                top: -9999px;
-                left: -9999px;
-            }
-            
-            .edu-table tr {
-                border: 1px solid #ddd;
-                margin-bottom: 10px;
-                padding: 8px;
-                background-color: #f9f9f9;
-            }
-            
-            .edu-table td {
-                border: none;
-                padding: 4px 0;
-                position: relative;
-                padding-left: 50%;
-            }
-            
-            .edu-table td:before {
-                content: attr(data-label) ": ";
-                position: absolute;
-                left: 6px;
-                width: 45%;
-                padding-right: 10px;
-                white-space: nowrap;
-                font-weight: bold;
-                color: #2c5aa0;
-            }
-        }
-        
-        /* Print styles */
-        @media print {
-            .two-column-edu {
-                page-break-inside: avoid;
-            }
-            
-            .left-edu-column,
-            .right-edu-column {
-                width: 48%;
-                float: left;
-                margin-right: 4%;
-            }
-            
-            .right-edu-column {
-                margin-right: 0;
-            }
-            
-            .edu-table {
-                font-size: 10px;
-            }
-            
-            .edu-table th,
-            .edu-table td {
-                padding: 4px 3px;
-            }
-        }
-        
-        /* IE6 specific fixes */
-        * html .two-column-edu {
-            height: 1%; /* IE6 hasLayout trigger */
-        }
-        
-        * html .left-edu-column,
-        * html .right-edu-column {
-            height: 1%;
-        }
-        
-        /* Clearfix for IE6 */
-        .two-column-edu:after {
-            content: ".";
-            display: block;
-            height: 0;
-            clear: both;
-            visibility: hidden;
-        }
-        
-        * html .two-column-edu {
-            zoom: 1; /* IE6 hasLayout */
-        }
