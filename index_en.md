@@ -13,23 +13,23 @@ sidebar: |
   
   ### Skills
 
-  **Infraestructura y Redes**
+  **Infrastructure**
   - Windows Server (AD, Entra ID)
   - Linux Servers
   - Veeam
   - Mikrotik / Fortinet
   - NAT, DNS, DHCP, etc.
 
-  **Virtualización y Contenedores**
+  **Virtualization**
   - VMware ESX / Hyper-V / Proxmox
   - Docker / Swarm / LXC
 
-  **Programación & Scripting**
-  - Python (automatización, análisis)
+  **Development**
+  - Python (automatization, data analysis)
   - Bash / PowerShell
-  - C para Embebidos
+  - C (for embedded applications)
 
-  **Bases de Datos**
+  **Databases**
   - SQL Server / MariaDB / MongoDB
   - Redis / SQLite
 
