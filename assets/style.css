@@ -331,3 +331,251 @@ footer {
 * html .container {
     zoom: 1; /* IE6 hasLayout */
 }
+
+        /* Education section specific styles */
+        .education-section {
+            margin-bottom: 30px;
+            clear: both;
+        }
+        
+        .education-section .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            background-color: #f0f8ff;
+            border-left: 4px solid #2c5aa0;
+        }
+        
+        /* Main degree section */
+        .degree-title {
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 3px solid #2c5aa0;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .degree-title h4 {
+            margin: 0 0 8px 0;
+            color: #2c5aa0;
+            font-size: 18px;
+        }
+        
+        .degree-title p {
+            margin: 5px 0;
+            color: #666;
+        }
+        
+        .degree-title p em {
+            color: #555;
+            font-style: italic;
+        }
+        
+        /* Two-column layout for certifications */
+        .two-column-edu {
+            width: 100%;
+            overflow: hidden; /* IE6 clearfix */
+        }
+        
+        .left-edu-column {
+            width: 48%;
+            float: left;
+            margin-right: 4%;
+        }
+        
+        .right-edu-column {
+            width: 48%;
+            float: right;
+        }
+        
+        .two-column-edu h3 {
+            color: #2c5aa0;
+            font-size: 18px;
+            margin: 0 0 15px 0;
+            padding: 8px 12px;
+            background-color: #e8e8e8;
+            border-left: 4px solid #2c5aa0;
+        }
+        
+        /* Table styling for certifications */
+        .edu-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            font-size: 13px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+        
+        .edu-table th {
+            background-color: #2c5aa0;
+            color: white;
+            padding: 8px 6px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        
+        .edu-table td {
+            padding: 8px 6px;
+            border-bottom: 1px solid #eee;
+            vertical-align: top;
+        }
+        
+        .edu-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .edu-table tr:hover {
+            background-color: #f0f8ff;
+        }
+        
+        .cert-name {
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        
+        .cert-org {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .cert-year {
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .cert-link {
+            margin-top: 3px;
+            font-size: 11px;
+        }
+        
+        .cert-link a {
+            color: #2c5aa0;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        
+        .cert-link a:hover {
+            color: #1a3d6b;
+            text-decoration: underline;
+        }
+        
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            .left-edu-column,
+            .right-edu-column {
+                width: 100%;
+                float: none;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            
+            .edu-table {
+                font-size: 12px;
+            }
+            
+            .edu-table th,
+            .edu-table td {
+                padding: 6px 4px;
+            }
+            
+            .edu-table th {
+                font-size: 11px;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            /* Stack table contents vertically on very small screens */
+            .edu-table,
+            .edu-table thead,
+            .edu-table tbody,
+            .edu-table th,
+            .edu-table td,
+            .edu-table tr {
+                display: block;
+            }
+            
+            .edu-table thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            
+            .edu-table tr {
+                border: 1px solid #ddd;
+                margin-bottom: 10px;
+                padding: 8px;
+                background-color: #f9f9f9;
+            }
+            
+            .edu-table td {
+                border: none;
+                padding: 4px 0;
+                position: relative;
+                padding-left: 50%;
+            }
+            
+            .edu-table td:before {
+                content: attr(data-label) ": ";
+                position: absolute;
+                left: 6px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                font-weight: bold;
+                color: #2c5aa0;
+            }
+        }
+        
+        /* Print styles */
+        @media print {
+            .two-column-edu {
+                page-break-inside: avoid;
+            }
+            
+            .left-edu-column,
+            .right-edu-column {
+                width: 48%;
+                float: left;
+                margin-right: 4%;
+            }
+            
+            .right-edu-column {
+                margin-right: 0;
+            }
+            
+            .edu-table {
+                font-size: 10px;
+            }
+            
+            .edu-table th,
+            .edu-table td {
+                padding: 4px 3px;
+            }
+        }
+        
+        /* IE6 specific fixes */
+        * html .two-column-edu {
+            height: 1%; /* IE6 hasLayout trigger */
+        }
+        
+        * html .left-edu-column,
+        * html .right-edu-column {
+            height: 1%;
+        }
+        
+        /* Clearfix for IE6 */
+        .two-column-edu:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+        
+        * html .two-column-edu {
+            zoom: 1; /* IE6 hasLayout */
+        }
