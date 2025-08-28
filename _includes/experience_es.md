@@ -23,6 +23,11 @@ Gestión de infraestructura IT y soporte a usuarios en la "Bolsa y Cámara de Ce
 
 ---
 
+#### Colaborador en Entrenamiento de Modelos de Lenguaje (RLHF) @ Outlier.ai  
+*Jul 2024 - Dic 2024*  
+Contribución a proyectos de entrenamiento de modelos de lenguaje mediante *human feedback reinforcement learning*, evaluando la calidad de las respuestas generadas por IA.  
+- Evaluación comparativa de respuestas generadas por LLMs.  
+- Análisis de claridad, corrección, relevancia y estilo en interacciones con chatbots.  
 
 #### Pasante en Ingeniería de Software @ Laboratorio de Sistemas Embebidos - IUA  
 *Ago 2017 - Dic 2017*  

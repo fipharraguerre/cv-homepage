@@ -23,6 +23,11 @@ Managed IT infrastructure and user support for "Bolsa y Cámara de Cereales de C
 
 ---
 
+#### Language Model Training Contributor (RLHF) @ Outlier.ai  
+*Jul 2024 – Dec 2024*  
+Contributed to language model training projects through *reinforcement learning with human feedback*, evaluating the quality of AI-generated responses.  
+- Comparative evaluation of outputs from large language models (LLMs).  
+- Analysis of clarity, accuracy, relevance, and style in chatbot interactions.  
 
 #### Software Engineering Intern @ Embedded Systems Lab - IUA  
 *Aug 2017 - Dec 2017*  
