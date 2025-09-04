@@ -1,0 +1,172 @@
+{
+  "en": {
+    "section_title": "Education, Certifications & Training",
+    "certificate_label": "Certificate",
+    "degree": {
+      "title": "B.Sc. Telecommunications Engineering",
+      "year": "2024",
+      "institution": "UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)",
+      "project_label": "Final Project",
+      "project_title": "Dynamic Speed Acquisition and Alert System for Driver Awareness"
+    },
+    "technical_certs": {
+      "title": "Technical Certifications",
+      "headers": {
+        "certification": "Certification",
+        "organization": "Organization",
+        "year": "Year"
+      },
+      "items": [
+        {
+          "name": "AZ-900: Microsoft Azure Fundamentals",
+          "organization": "Microsoft - Pearson VUE",
+          "year": "2025",
+          "certificate_link": "../assets/certs/az900_cert.pdf"
+        },
+        {
+          "name": "LPIC-1: Linux Administrator",
+          "organization": "ACG",
+          "year": "2020",
+          "certificate_link": "../assets/certs/LPIC-1_F2FE9BC58833.pdf"
+        },
+        {
+          "name": "MS-10997: Office 365 Administration",
+          "organization": "Intertron Education",
+          "year": "2021",
+          "certificate_link": "../assets/certs/10997.pdf"
+        }
+      ]
+    },
+    "additional_training": {
+      "title": "Additional Training",
+      "headers": {
+        "course": "Course",
+        "institution": "Institution",
+        "year": "Year"
+      },
+      "items": [
+        {
+          "name": "SAR Teledetection",
+          "institution": "CONAE",
+          "year": "2022",
+          "certificate_link": "../assets/certs/SAR.pdf"
+        },
+        {
+          "name": "Electromagnetic Compatibility (EMC)",
+          "institution": "IUA",
+          "year": "2019"
+        },
+        {
+          "name": "Photovoltaic-Wind Energy Generation",
+          "institution": "IUA",
+          "year": "2019"
+        },
+        {
+          "name": "Information Security",
+          "institution": "IUA",
+          "year": "2017"
+        },
+        {
+          "name": "SECOM 2016: 3G Femtocells",
+          "institution": "UTN FRC",
+          "year": "2016"
+        },
+        {
+          "name": "High Performance Computing (HPC)",
+          "institution": "IUA",
+          "year": "2013"
+        },
+        {
+          "name": "Elementos de Matemática",
+          "institution": "UNC",
+          "year": "2008"
+        }
+      ]
+    }
+  },
+  "es": {
+    "section_title": "Educación, certificados y cursos",
+    "certificate_label": "Certificado",
+    "degree": {
+      "title": "Ingeniería en Telecomunicaciones",
+      "year": "2024",
+      "institution": "UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)",
+      "project_label": "Proyecto Final",
+      "project_title": "Sistema Dinámico de Adquisición y Alerta de Velocidad para la Concientización de Conductores Vehiculares"
+    },
+    "technical_certs": {
+      "title": "Certificaciones Técnicas",
+      "headers": {
+        "certification": "Certificación",
+        "organization": "Organización",
+        "year": "Año"
+      },
+      "items": [
+        {
+          "name": "AZ-900: Microsoft Azure Fundamentals",
+          "organization": "Microsoft - Pearson VUE",
+          "year": "2025",
+          "certificate_link": "../assets/certs/az900_cert.pdf"
+        },
+        {
+          "name": "LPIC-1: Linux Administrator",
+          "organization": "ACG",
+          "year": "2020",
+          "certificate_link": "../assets/certs/LPIC-1_F2FE9BC58833.pdf"
+        },
+        {
+          "name": "MS-10997: Office 365 Administration",
+          "organization": "Intertron Education",
+          "year": "2021",
+          "certificate_link": "../assets/certs/10997.pdf"
+        }
+      ]
+    },
+    "additional_training": {
+      "title": "Capacitación Adicional",
+      "headers": {
+        "course": "Curso",
+        "institution": "Institución",
+        "year": "Año"
+      },
+      "items": [
+        {
+          "name": "SAR Teledetection",
+          "institution": "CONAE",
+          "year": "2022",
+          "certificate_link": "../assets/certs/SAR.pdf"
+        },
+        {
+          "name": "Compatibilidad Electromagnética",
+          "institution": "IUA",
+          "year": "2019"
+        },
+        {
+          "name": "Generación de energía Fotovoltaica-Eólica",
+          "institution": "IUA",
+          "year": "2019"
+        },
+        {
+          "name": "Seguridad Informática",
+          "institution": "IUA",
+          "year": "2017"
+        },
+        {
+          "name": "SECOM 2016: 3G Femtocells",
+          "institution": "UTN FRC",
+          "year": "2016"
+        },
+        {
+          "name": "Cómputo de Altas Prestaciones",
+          "institution": "IUA",
+          "year": "2013"
+        },
+        {
+          "name": "Elementos de Matemática",
+          "institution": "UNC",
+          "year": "2008"
+        }
+      ]
+    }
+  }
+}

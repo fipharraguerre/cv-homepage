@@ -1,175 +1,79 @@
 <!-- Education Parser Include: _includes/education_parser.html -->
+{% assign education_data = site.data.education %}
+{% assign current_lang = page.lang | default: "en" %}
+{% assign lang_data = education_data[current_lang] %}
+
 <div class="education-section">
-    <div class="section-title">Education, Certifications & Training</div>
+    <div class="section-title">
+        {% if page.lang == "es" %}
+            {{ lang_data.section_title }}
+        {% else %}
+            {{ lang_data.section_title }}
+        {% endif %}
+    </div>
     
     <!-- Main degree section -->
     <div class="degree-title">
-        {% if page.lang == "es" %}
-            <h4><a href="../assets/certs/titulo_scan.pdf" target="_blank">Ingeniería en Telecomunicaciones</a></h4>
-            <p>2024 - UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)</p>
-            <p><em>Proyecto Final: "Sistema Dinámico de Adquisición y Alerta de Velocidad para la Concientización de Conductores Vehiculares"</em></p>
-        {% else %}
-            <h4><a href="../assets/certs/titulo_scan.pdf" target="_blank">B.Sc. Telecommunications Engineering</a></h4>
-            <p>2024 - UNDEF - CRUC Instituto Universitario Aeronáutico (Córdoba, Argentina)</p>
-            <p><em>Final Project: "Dynamic Speed Acquisition and Alert System for Driver Awareness"</em></p>
-        {% endif %}
+        <h4><a href="../assets/certs/titulo_scan.pdf" target="_blank">{{ lang_data.degree.title }}</a></h4>
+        <p>{{ lang_data.degree.year }} - {{ lang_data.degree.institution }}</p>
+        <p><em>{{ lang_data.degree.project_label }}: "{{ lang_data.degree.project_title }}"</em></p>
     </div>
 
     <div class="two-column-edu">
         <div class="left-edu-column">
-            {% if page.lang == "es" %}
-                <h3>Certificaciones Técnicas</h3>
-            {% else %}
-                <h3>Technical Certifications</h3>
-            {% endif %}
+            <h3>{{ lang_data.technical_certs.title }}</h3>
             
             <table class="edu-table">
                 <thead>
                     <tr>
-                        {% if page.lang == "es" %}
-                            <th>Certificación</th>
-                            <th>Organización</th>
-                            <th>Año</th>
-                        {% else %}
-                            <th>Certification</th>
-                            <th>Organization</th>
-                            <th>Year</th>
-                        {% endif %}
+                        <th>{{ lang_data.technical_certs.headers.certification }}</th>
+                        <th>{{ lang_data.technical_certs.headers.organization }}</th>
+                        <th>{{ lang_data.technical_certs.headers.year }}</th>
                     </tr>
                 </thead>
                 <tbody>
+                    {% for cert in lang_data.technical_certs.items %}
                     <tr>
-                        <td class="cert-name">AZ-900: Microsoft Azure Fundamentals</td>
-                        <td class="cert-org">Microsoft - Pearson VUE</td>
-                        <td class="cert-year">2025
+                        <td class="cert-name">{{ cert.name }}</td>
+                        <td class="cert-org">{{ cert.organization }}</td>
+                        <td class="cert-year">{{ cert.year }}
+                            {% if cert.certificate_link %}
                             <div class="cert-link">
-                                {% if page.lang == "es" %}
-                                    <a href="../assets/certs/az900_cert.pdf" target="_blank">[Certificado]</a>
-                                {% else %}
-                                    <a href="../assets/certs/az900_cert.pdf" target="_blank">[Certificate]</a>
-                                {% endif %}
+                                <a href="{{ cert.certificate_link }}" target="_blank">[{{ lang_data.certificate_label }}]</a>
                             </div>
+                            {% endif %}
                         </td>
                     </tr>
-                    <tr>
-                        <td class="cert-name">LPIC-1: Linux Administrator</td>
-                        <td class="cert-org">ACG</td>
-                        <td class="cert-year">2020
-                            <div class="cert-link">
-                                {% if page.lang == "es" %}
-                                    <a href="../assets/certs/LPIC-1_F2FE9BC58833.pdf" target="_blank">[Certificado]</a>
-                                {% else %}
-                                    <a href="../assets/certs/LPIC-1_F2FE9BC58833.pdf" target="_blank">[Certificate]</a>
-                                {% endif %}
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="cert-name">MS-10997: Office 365 Administration</td>
-                        <td class="cert-org">Intertron Education</td>
-                        <td class="cert-year">2021
-                            <div class="cert-link">
-                                {% if page.lang == "es" %}
-                                    <a href="../assets/certs/10997.pdf" target="_blank">[Certificado]</a>
-                                {% else %}
-                                    <a href="../assets/certs/10997.pdf" target="_blank">[Certificate]</a>
-                                {% endif %}
-                            </div>
-                        </td>
-                    </tr>
+                    {% endfor %}
                 </tbody>
             </table>
         </div>
 
         <div class="right-edu-column">
-            {% if page.lang == "es" %}
-                <h3>Capacitación Adicional</h3>
-            {% else %}
-                <h3>Additional Training</h3>
-            {% endif %}
+            <h3>{{ lang_data.additional_training.title }}</h3>
             
             <table class="edu-table">
                 <thead>
                     <tr>
-                        {% if page.lang == "es" %}
-                            <th>Curso</th>
-                            <th>Institución</th>
-                            <th>Año</th>
-                        {% else %}
-                            <th>Course</th>
-                            <th>Institution</th>
-                            <th>Year</th>
-                        {% endif %}
+                        <th>{{ lang_data.additional_training.headers.course }}</th>
+                        <th>{{ lang_data.additional_training.headers.institution }}</th>
+                        <th>{{ lang_data.additional_training.headers.year }}</th>
                     </tr>
                 </thead>
                 <tbody>
+                    {% for course in lang_data.additional_training.items %}
                     <tr>
-                        <td class="cert-name">SAR Teledetection</td>
-                        <td class="cert-org">CONAE</td>
-                        <td class="cert-year">2022
+                        <td class="cert-name">{{ course.name }}</td>
+                        <td class="cert-org">{{ course.institution }}</td>
+                        <td class="cert-year">{{ course.year }}
+                            {% if course.certificate_link %}
                             <div class="cert-link">
-                                {% if page.lang == "es" %}
-                                    <a href="../assets/certs/SAR.pdf" target="_blank">[Certificado]</a>
-                                {% else %}
-                                    <a href="../assets/certs/SAR.pdf" target="_blank">[Certificate]</a>
-                                {% endif %}
+                                <a href="{{ course.certificate_link }}" target="_blank">[{{ lang_data.certificate_label }}]</a>
                             </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="cert-name">
-                            {% if page.lang == "es" %}
-                                Compatibilidad Electromagnética
-                            {% else %}
-                                Electromagnetic Compatibility (EMC)
                             {% endif %}
                         </td>
-                        <td class="cert-org">IUA</td>
-                        <td class="cert-year">2019</td>
                     </tr>
-                    <tr>
-                        <td class="cert-name">
-                            {% if page.lang == "es" %}
-                                Generación de energía Fotovoltaica-Eólica
-                            {% else %}
-                                Photovoltaic-Wind Energy Generation
-                            {% endif %}
-                        </td>
-                        <td class="cert-org">IUA</td>
-                        <td class="cert-year">2019</td>
-                    </tr>
-                    <tr>
-                        <td class="cert-name">
-                            {% if page.lang == "es" %}
-                                Seguridad Informática
-                            {% else %}
-                                Information Security
-                            {% endif %}
-                        </td>
-                        <td class="cert-org">IUA</td>
-                        <td class="cert-year">2017</td>
-                    </tr>
-                    <tr>
-                        <td class="cert-name">SECOM 2016: 3G Femtocells</td>
-                        <td class="cert-org">UTN FRC</td>
-                        <td class="cert-year">2016</td>
-                    </tr>
-                    <tr>
-                        <td class="cert-name">
-                            {% if page.lang == "es" %}
-                                Cómputo de Altas Prestaciones
-                            {% else %}
-                                High Performance Computing (HPC)
-                            {% endif %}
-                        </td>
-                        <td class="cert-org">IUA</td>
-                        <td class="cert-year">2013</td>
-                    </tr>
-                    <tr>
-                        <td class="cert-name">Elementos de Matemática</td>
-                        <td class="cert-org">UNC</td>
-                        <td class="cert-year">2008</td>
-                    </tr>
+                    {% endfor %}
                 </tbody>
             </table>
         </div>
