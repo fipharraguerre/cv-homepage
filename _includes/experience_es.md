@@ -1,3 +1,7 @@
+---
+
+## Experiencia  
+
 ### Soporte Nivel 2 (Contratista B2B) @ MSP TandemStudio.cloud  
 *2022 - Presente*  
 Colaboración continua con un proveedor de servicios gestionados (MSP), brindando soporte nivel 2 y administración de sistemas.
