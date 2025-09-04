@@ -77,7 +77,7 @@
           "year": "2013"
         },
         {
-          "name": "Elementos de Matemática",
+          "name": "Fundamentals of Mathematics",
           "institution": "UNC",
           "year": "2008"
         }
@@ -131,7 +131,7 @@
       },
       "items": [
         {
-          "name": "SAR Teledetection",
+          "name": "Teledetección SAR",
           "institution": "CONAE",
           "year": "2022",
           "certificate_link": "../assets/certs/SAR.pdf"
@@ -152,7 +152,7 @@
           "year": "2017"
         },
         {
-          "name": "SECOM 2016: 3G Femtocells",
+          "name": "SECOM 2016: Femtoceldas 3G",
           "institution": "UTN FRC",
           "year": "2016"
         },
