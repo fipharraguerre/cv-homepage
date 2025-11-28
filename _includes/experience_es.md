@@ -31,6 +31,8 @@ Gestión de infraestructura IT y soporte a usuarios en la "Bolsa y Cámara de Ce
 - Gestión de Active Directory / Entra ID, licencias de Microsoft 365 y accesos de usuarios.  
 - Soporte de hardware, resolución de incidencias y coordinación con proveedores.  
 
+---
+
 ### Colaborador en Entrenamiento de Modelos de Lenguaje (RLHF) @ Outlier.ai  
 *Jul 2024 - Dic 2024*  
 

@@ -31,6 +31,8 @@ Managed IT infrastructure and user support for "Bolsa y Cámara de Cereales de C
 - Managed AD, Microsoft 365 licensing, and user access.  
 - Provided hardware support, troubleshooting, and vendor coordination.
 
+---
+
 ### Language Model Training Contributor (RLHF) @ Outlier.ai  
 *Jul 2024 – Dec 2024*  
 
