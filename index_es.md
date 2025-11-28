@@ -35,8 +35,7 @@ sidebar: |
 
 
   ### Enlaces
-  - [Wiki](https://docs.facundoitest.space)
-  - [Homepage](https://home.facundoitest.space)
+  - [CV (ES)](https://docs.google.com/document/d/14y6YgJxdFQoSsdAEsNr-gM4WH1WVxxiNKm3tBvMp_0A/edit?usp=sharing)  
   - [GitHub](https://github.com/fipharraguerre)
   - [LinkedIn](https://linkedin.com/in/fipharraguerre/)
 

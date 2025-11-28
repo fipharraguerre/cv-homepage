@@ -34,8 +34,7 @@ sidebar: |
   - Redis / SQLite
 
   ### Links
-  - [Wiki](https://docs.facundoitest.space)
-  - [Homepage](https://home.facundoitest.space)
+  - [CV (EN)](https://docs.google.com/document/d/1bzRSBal5hZ2-_s6Y_l_zuRHCsHcR2TmanpyhuRp-XWA/edit?usp=sharing)
   - [GitHub](https://github.com/fipharraguerre)
   - [LinkedIn](https://linkedin.com/in/fipharraguerre/)
   
