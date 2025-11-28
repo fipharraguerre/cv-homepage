@@ -113,7 +113,7 @@ footer {
 .education-section .section-title {
     font-size: 22px;
     font-weight: bold;
-    color: #333;
+    border-left: 4px solid #2c5aa0;
     padding: 10px 15px;
     margin-bottom: 20px;
 }
@@ -157,11 +157,9 @@ footer {
 }
 
 .two-column-edu h3 {
-    color: #2c5aa0;
     font-size: 18px;
     margin: 0 0 15px 0;
     padding: 8px 12px;
-    background-color: #e8e8e8;
     border-left: 4px solid #2c5aa0;
 }
 
