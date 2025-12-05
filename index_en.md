@@ -8,8 +8,13 @@ sidebar: |
   ## Facundo Ipharraguerre
   
   ### Profile Summary 
-  - Telecommunications Engineer & SysAdmin with software development, SCRUM and ISO 9001 experience. Spanish/English.
+  Telecommunications Engineer | SysAdmin with software development, SCRUM and ISO 9001 experience | Spanish/English.
   - Location: Córdoba, Argentina
+
+  ### Links
+  - [CV (EN)](https://docs.google.com/document/d/1bzRSBal5hZ2-_s6Y_l_zuRHCsHcR2TmanpyhuRp-XWA/edit?usp=sharing)
+  - [GitHub](https://github.com/fipharraguerre)
+  - [LinkedIn](https://linkedin.com/in/fipharraguerre/)
   
   ### Skills
 
@@ -32,11 +37,6 @@ sidebar: |
   **Databases**
   - SQL Server / MariaDB / MongoDB
   - Redis / SQLite
-
-  ### Links
-  - [CV (EN)](https://docs.google.com/document/d/1bzRSBal5hZ2-_s6Y_l_zuRHCsHcR2TmanpyhuRp-XWA/edit?usp=sharing)
-  - [GitHub](https://github.com/fipharraguerre)
-  - [LinkedIn](https://linkedin.com/in/fipharraguerre/)
   
 ---
 
