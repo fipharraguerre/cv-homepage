@@ -8,8 +8,13 @@ sidebar: |
   ## Facundo Ipharraguerre
   
   ### Resumen Profesional  
-  - Ingeniero en Telecomunicaciones con experiencia en infraestructura, Linux, Windows Server, Azure, redes, automatización y desarrollo de software. Experiencia en SCRUM e ISO 9001. Español nativo e inglés conversacional.  
-  - Ubicación: Córdoba, Argentina  
+  Ingeniero en Telecomunicaciones con experiencia en infraestructura, Linux, Windows Server, Azure, redes, automatización y desarrollo de software. Experiencia en SCRUM e ISO 9001. Español nativo e inglés conversacional.  
+  Ubicación: Córdoba, Argentina  
+
+  ### Enlaces
+  - [CV PDF (Español)](https://docs.google.com/document/d/14y6YgJxdFQoSsdAEsNr-gM4WH1WVxxiNKm3tBvMp_0A/edit?usp=sharing)  
+  - [GitHub](https://github.com/fipharraguerre)
+  - [LinkedIn](https://linkedin.com/in/fipharraguerre/)
   
   ### Habilidades
 
@@ -32,12 +37,6 @@ sidebar: |
   **Bases de Datos**
   - SQL Server / MariaDB / MongoDB
   - Redis / SQLite
-
-
-  ### Enlaces
-  - [CV (ES)](https://docs.google.com/document/d/14y6YgJxdFQoSsdAEsNr-gM4WH1WVxxiNKm3tBvMp_0A/edit?usp=sharing)  
-  - [GitHub](https://github.com/fipharraguerre)
-  - [LinkedIn](https://linkedin.com/in/fipharraguerre/)
 
 ---
 
