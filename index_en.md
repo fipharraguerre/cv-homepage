@@ -18,16 +18,10 @@ sidebar: |
   
   ### Skills
 
-  #### Core Competencies
-
-  * **System Administration:** Windows/Linux Server Management, Active Directory/Entra ID, Network Configuration, Backup & Disaster Recovery.  
-  * **Containerization & Virtualization:** Hypervisor Management (VMware, Proxmox, Hyper-V), Container Orchestration (Docker/Swarm).  
-  * **Scripting & Automation:** Python, Bash, PowerShell.  
-  * **Database Management:** SQL and NoSQL environments (SQL Server, MariaDB, MongoDB).  
-
-  #### Technologies & Tools (The Specifics)
-
-  Veeam, Mikrotik, Fortinet, NAT, DNS, DHCP, C, Redis, SQLite, LXC
+  * **Infrastructure:** Windows Server (AD, Entra ID), Linux, Networking (NAT, DNS, DHCP), Veeam, Mikrotik/Fortinet  
+  * **Virtualization & Containers:** VMware ESXi, Hyper-V, Proxmox, Docker, Docker Swarm, LXC  
+  * **Development & Scripting:** Python (Automation, Data Analysis), Bash, PowerShell, C (Embedded)  
+  * **Databases:** SQL Server, MariaDB, MongoDB, Redis, SQLite  
   
 ---
 
