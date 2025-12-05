@@ -8,7 +8,7 @@ sidebar: |
   ## Facundo Ipharraguerre
   
   ### Profile Summary 
-  Telecommunications Engineer | SysAdmin with software development, SCRUM and ISO 9001 experience | Spanish/English.
+  Telecommunications Engineer | SysAdmin with software development, SCRUM and ISO 9001 experience | Spanish/English.  
   Location: Córdoba, Argentina
 
   ### Links
