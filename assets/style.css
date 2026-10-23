@@ -21,9 +21,7 @@ body {
 }
 
 .sidebar {
-    float: left;
-    width: 30%;
-    min-height: 100vh;
+    width: 100%;
     padding: 15px;
     background: #f2f2f2;
     border-right: 1px solid #ccc;
@@ -54,22 +52,9 @@ body {
     border-radius: 50%;
 }
 
-/* Responsive: Stack sidebar above content */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 70%;
-        text-align: left;
-    }
-}
-
 .content {
-    float: left;
-    width: 70%;
-    padding: 20px;
+    width: 100%;
+    padding: 15px;
 }
 
 /* Major section headings - Experience, Education, etc. */
@@ -139,7 +124,7 @@ a:hover {
     text-decoration: underline;
 }
 
-footer {
+.footer {
     clear: both;
     font-size: 12px;
     color: #666;
@@ -174,7 +159,7 @@ footer {
     border: 1px solid #e0e0e0;
 }
 
-.degree-title h4 {
+.degree-title h3 {
     margin: 0 0 8px 0;
     color: #2c5aa0;
     font-size: 18px;
@@ -190,21 +175,7 @@ footer {
     font-style: italic;
 }
 
-.two-column-edu {
-    width: 100%;
-    overflow: hidden;
-}
-
-.left-edu-column, .right-edu-column {
-    width: 48%;
-    float: left;
-}
-
-.left-edu-column {
-    margin-right: 4%;
-}
-
-.two-column-edu h3 {
+.education-group h3 {
     font-size: 18px;
     margin: 0 0 15px 0;
     padding: 8px 12px;
@@ -214,8 +185,9 @@ footer {
 
 .edu-table {
     width: 100%;
+    min-width: 320px;
     border-collapse: collapse;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     font-size: 13px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -244,6 +216,11 @@ footer {
     background-color: #f0f8ff;
 }
 
+.table-scroll {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
 .cert-name { font-weight: bold; color: #2c5aa0; }
 .cert-org { color: #666; font-style: italic; }
 .cert-year { font-weight: bold; color: #333; }
@@ -259,14 +236,18 @@ footer {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
-    .left-edu-column,
-    .right-edu-column {
-        width: 100%;
-        float: none;
-        margin-right: 0;
-        margin-bottom: 20px;
+@media screen and (min-width: 769px) {
+    .sidebar {
+        float: left;
+        width: 30%;
+        min-height: 100vh;
     }
+
+    .content {
+        float: left;
+        width: 70%;
+    }
+
     .edu-table {
         font-size: 12px;
     }
@@ -276,38 +257,5 @@ footer {
     }
     .edu-table th {
         font-size: 11px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .edu-table, .edu-table thead, .edu-table tbody, .edu-table th, .edu-table td, .edu-table tr {
-        display: block;
-    }
-    .edu-table thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
-    .edu-table tr {
-        border: 1px solid #ddd;
-        margin-bottom: 10px;
-        padding: 8px;
-        background-color: #f9f9f9;
-    }
-    .edu-table td {
-        border: none;
-        padding: 4px 0;
-        position: relative;
-        padding-left: 50%;
-    }
-    .edu-table td:before {
-        content: attr(data-label) ": ";
-        position: absolute;
-        left: 6px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-        font-weight: bold;
-        color: #2c5aa0;
     }
 }

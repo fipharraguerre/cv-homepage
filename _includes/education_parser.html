@@ -1,82 +1,79 @@
-<!-- Education Parser Include: _includes/education_parser.html -->
+<!-- Education and certification tables use localized data from _data/education.json. -->
 {% assign education_data = site.data.education %}
 {% assign current_lang = page.lang | default: "en" %}
 {% assign lang_data = education_data[current_lang] %}
 
 <div class="education-section">
-    <div class="section-title">
-        {% if page.lang == "es" %}
-            {{ lang_data.section_title }}
-        {% else %}
-            {{ lang_data.section_title }}
-        {% endif %}
-    </div>
+    <h2 class="section-title">{{ lang_data.section_title }}</h2>
     
     <!-- Main degree section -->
     <div class="degree-title">
-        <h4><a href="../assets/certs/titulo_scan.pdf" target="_blank">{{ lang_data.degree.title }}</a></h4>
+        <h3><a href="{{ '/assets/certs/titulo_scan.pdf' | relative_url }}" target="_blank" rel="noopener">{{ lang_data.degree.title }}</a></h3>
         <p>{{ lang_data.degree.year }} - {{ lang_data.degree.institution }}</p>
         <p><em>{{ lang_data.degree.project_label }}: "{{ lang_data.degree.project_title }}"</em></p>
     </div>
 
-    <div class="two-column-edu">
-        <div class="left-edu-column">
+    <div class="education-groups">
+        <div class="education-group">
             <h3>{{ lang_data.technical_certs.title }}</h3>
             
-            <table class="edu-table">
-                <thead>
-                    <tr>
-                        <th>{{ lang_data.technical_certs.headers.certification }}</th>
-                        <th>{{ lang_data.technical_certs.headers.organization }}</th>
-                        <th>{{ lang_data.technical_certs.headers.year }}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for cert in lang_data.technical_certs.items %}
-                    <tr>
-                        <td class="cert-name">{{ cert.name }}</td>
-                        <td class="cert-org">{{ cert.organization }}</td>
-                        <td class="cert-year">{{ cert.year }}
-                            {% if cert.certificate_link %}
-                            <div class="cert-link">
-                                <a href="{{ cert.certificate_link }}" target="_blank">[{{ lang_data.certificate_label }}]</a>
-                            </div>
-                            {% endif %}
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+            <div class="table-scroll">
+                <table class="edu-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">{{ lang_data.technical_certs.headers.certification }}</th>
+                            <th scope="col">{{ lang_data.technical_certs.headers.organization }}</th>
+                            <th scope="col">{{ lang_data.technical_certs.headers.year }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for cert in lang_data.technical_certs.items %}
+                        <tr>
+                            <td class="cert-name">{{ cert.name }}</td>
+                            <td class="cert-org">{{ cert.organization }}</td>
+                            <td class="cert-year">{{ cert.year }}
+                                {% if cert.certificate_link %}
+                                <div class="cert-link">
+                                    <a href="{{ cert.certificate_link | relative_url }}" target="_blank" rel="noopener">[{{ lang_data.certificate_label }}]</a>
+                                </div>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
         </div>
 
-        <div class="right-edu-column">
+        <div class="education-group">
             <h3>{{ lang_data.additional_training.title }}</h3>
             
-            <table class="edu-table">
-                <thead>
-                    <tr>
-                        <th>{{ lang_data.additional_training.headers.course }}</th>
-                        <th>{{ lang_data.additional_training.headers.institution }}</th>
-                        <th>{{ lang_data.additional_training.headers.year }}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for course in lang_data.additional_training.items %}
-                    <tr>
-                        <td class="cert-name">{{ course.name }}</td>
-                        <td class="cert-org">{{ course.institution }}</td>
-                        <td class="cert-year">{{ course.year }}
-                            {% if course.certificate_link %}
-                            <div class="cert-link">
-                                <a href="{{ course.certificate_link }}" target="_blank">[{{ lang_data.certificate_label }}]</a>
-                            </div>
-                            {% endif %}
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+            <div class="table-scroll">
+                <table class="edu-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">{{ lang_data.additional_training.headers.course }}</th>
+                            <th scope="col">{{ lang_data.additional_training.headers.institution }}</th>
+                            <th scope="col">{{ lang_data.additional_training.headers.year }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for course in lang_data.additional_training.items %}
+                        <tr>
+                            <td class="cert-name">{{ course.name }}</td>
+                            <td class="cert-org">{{ course.institution }}</td>
+                            <td class="cert-year">{{ course.year }}
+                                {% if course.certificate_link %}
+                                <div class="cert-link">
+                                    <a href="{{ course.certificate_link | relative_url }}" target="_blank" rel="noopener">[{{ lang_data.certificate_label }}]</a>
+                                </div>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-    <div style="clear: both;"></div>
 </div>

@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,15 +9,21 @@
     <title>Redirecting...</title>
     <script>
         // Auto-redirect based on browser language
-        const userLang = navigator.language || navigator.userLanguage;
-        if (userLang.startsWith("es")) {
-            window.location.href = "/es"; // Redirect to Spanish
+        var userLang = navigator.language || navigator.userLanguage || "";
+        var englishPage = "{{ '/en/' | relative_url }}";
+        var spanishPage = "{{ '/es/' | relative_url }}";
+        if (userLang.toLowerCase().indexOf("es") === 0) {
+            window.location.href = spanishPage;
         } else {
-            window.location.href = "/en"; // Default to English
+            window.location.href = englishPage;
         }
     </script>
 </head>
 <body>
-    <p>If you are not redirected, <a href="/en">click here</a>.</p>
+    <p>Choose a language / Elegí un idioma:</p>
+    <ul>
+        <li><a href="{{ '/en/' | relative_url }}" lang="en">English</a></li>
+        <li><a href="{{ '/es/' | relative_url }}" lang="es">Español</a></li>
+    </ul>
 </body>
 </html>

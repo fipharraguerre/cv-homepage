@@ -4,57 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="icon" href="{{ site.baseurl }}/assets/favicon.ico" type="image/x-icon">
-    <!--[if IE 6]>
-    <style>
-        /* Additional IE6-specific fixes */
-        .sidebar { position: relative; }
-        .content { position: relative; }
-    </style>
-    <![endif]-->
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+    <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
-    <div class="container clearfix">
-        <aside class="sidebar">
-            <div id="language-switch">
-                <a href="{{ site.baseurl }}/es/">🇪🇸 Español</a> | <a href="{{ site.baseurl }}/en/">🇬🇧 English</a>
+    <div class="container">
+        <div class="sidebar" role="complementary">
+            <div id="language-switch" role="navigation" aria-label="Language">
+                <a href="{{ '/es/' | relative_url }}" lang="es">Español</a> |
+                <a href="{{ '/en/' | relative_url }}" lang="en">English</a>
             </div>
             <div id="avatar">
-                <img src="{{ site.baseurl }}/assets/avatar.jpg" alt="Profile picture" width="100" height="100">
+                <img src="{{ '/assets/avatar.jpg' | relative_url }}" alt="{% if page.lang == 'es' %}Foto de perfil{% else %}Profile picture{% endif %}" width="100" height="100">
             </div>
             <div class="sidebar-content">
                 {{ page.sidebar | markdownify }}
             </div>
-        </aside>
-        <main class="content">
+        </div>
+        <div class="content" role="main">
             {{ content }}
-        </main>
-        <div style="clear: both;"></div> <!-- IE6 clearfix -->
+        </div>
+        <div class="footer">
+            {% if page.lang == 'es' %}
+            Sitio creado con Jekyll y GitHub Pages.
+            {% else %}
+            Built with Jekyll and GitHub Pages.
+            {% endif %}
+        </div>
     </div>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Calculate page load time
-            var loadTime = ((performance.now()) / 1000).toFixed(2);
-
-            // Create footer element
-            var footer = document.createElement('footer');
-
-            // Set initial footer content with load time
-            var footerText = 'I made this page with my 🐻 hands using Jekyll and GitHub Pages. It loaded in ' + loadTime + ' seconds';
-
-            // Check for memory API (Chrome/Chromium only)
-            if (performance && performance.memory && performance.memory.usedJSHeapSize) {
-                var memoryUsage = (performance.memory.usedJSHeapSize / (1024 * 1024)).toFixed(2);
-                footerText += ' and utilizes ' + memoryUsage + ' MB of RAM';
-            }
-
-            footer.innerHTML = footerText;
-
-            // Add footer to the container
-            document.querySelector('.container').appendChild(footer);
-        });
-    </script>
 </body>
 </html>
